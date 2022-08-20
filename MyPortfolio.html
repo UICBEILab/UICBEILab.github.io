@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hoang Bao Nghi Bien Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="MyPortfolio.css">
+		
+	</head>
+
+	<body>
+		<!-- Navigation Bar -->
+		<div id="nav">
+			<a class="nav-item right" href="#about-section">Hoang Bao Nghi Bien</a>
+			<a class="nav-item left" href="#project-section">Project</a>
+			<a class="nav-item left" href="#education-section">Education</a>
+			<a class="nav-item left" href="#about-section">About</a>
+		</div>
+		<div class="page-content">
+			<!--Home section
+			<section id="home-section">
+				<div class="container row">
+					<img src="images/t.jpeg" id="portfolio-photo">
+				</div>
+			</section>-->
+			<!-- About section-->
+			<section id="about-section">
+				<div class="container row">
+					<div class="container row" id="landing-container">
+						<img src="images/myphoto.png" id="my-photo">
+						<div class="container column" id="landing-text">
+							<h1>HOANG BAO NGHI BIEN</h1>
+							<p>
+								I'm studying Computer Science at The University of Illinois at Chicago.
+								<br>
+								I'm also interested in design.
+								<br>
+								Thank you for visiting.
+							</p>				
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--Education section-->
+			<section id="education-section">
+				<div class="container column" id="text">
+					<h2>EDUCATION</h2>
+					<div class="container column" id="school">
+						<h5>2021-present</h5>
+						<h3>The University of Illinois at Chicago</h3>
+						<h5>B.S. - Computer Science with Software Engineering Concentration</h5>
+						<h6>Expected Graduation: December 2023</h6>
+						<br>
+						<h5>2019-2021</h5>
+						<h3>Moraine Valley Community College</h3>
+						<h5>A.S. - Associate in Science</h5>
+					</div>
+					<div class="container column" id="coursework">
+						<h4> Relevant Coursework:</h4>
+						<ul>
+							<li>Program Design I (CS 111)</li>
+							<li>Program Design II (CS 141)</li>
+							<li>Mathematical Foundations of Computing (CS 151)</li>
+							<li>Programing Practicum (CS 211)</li>
+							<li>Data Structures (CS 251)</li>
+							<li>Web App Development (CS 294) *</li>
+							<li>Machine Organization (CS 261) *</li>
+							<li>Languages and Automata (CS 301)</li>
+							<li>Software Design (CS 342) *</li>
+							<li>Communication and Ethics (CS 377)</li>
+							<li>Computer Algorithms I (CS 401) *</li>
+							<li>Database Systems (CS 408)</li>
+							<li>Computer Vision I (CS 415) *</li>
+						</ul>
+						<p id="progress">*in progress</p>
+					</div>
+				</div>
+			</section>
+
+			<!--Project section-->
+			<section class="container column" id="project-section">
+				<h1 class="subtitle">PROJECT</h1>
+				<!--Filter Buttons-->
+				<div class="container row" id="button-section">
+					<button class="filter-button active" onclick="filterSelection('all')">All</button>
+					<button class="filter-button" onclick="filterSelection('java')">C</button>
+					<button class="filter-button" onclick="filterSelection('C++')">C++</button>
+					<button class="filter-button" onclick="filterSelection('react')">React</button>
+					<button class="filter-button" onclick="filterSelection('data')">MySQL</button>
+				</div>
+				<!--Projects-->
+				<div class="container row" id="project-container">
+					<div class="each-project react show">
+					  <img class="proj-img" src="images/Dorm_Manager.png">
+					  <div class="proj-description container column">
+					  	<div class="img-description">
+							<h2>Dormitory Manager</h2>
+							<p>Manage information in the dormitory such as rooms, administrators, staff and students.
+							<br>
+							<br>
+							<a href="https://github.com/lvu5/project480" target="_blank">Github</a>
+							<br>
+							<br>
+							<i>React|MySQL</i>
+						</p></div>
+					  </div>
+					</div>
+
+					<div class="each-project C++ show">
+					  <img class="proj-img" src="images/DNAProfiling.png">
+					  <div class="proj-description container column">
+					  	<div class="img-description">
+							<h2>DNA Profiling</h2>
+							<p>Build DNA strands using the provided <b>ourvector</b> implementation and then determine who the DNA matches to in a database.</p>
+							<br>
+							<br>
+							<a href="https://github.com/HoangBaoNghiBien/CS251_Project/tree/main/Project%201_DNA%20Profiling" target="_blank">Github</a>
+							<br>
+							<br>
+							<i>C++</i>
+						</div>
+					  </div>
+					</div>
+
+					<div class="each-project C++ show">
+					  <img class="proj-img" src="images/OpenStreetMaps.png">
+					  <div class="proj-description container column">
+					  	<div class="img-description">
+							<h2>Open Stresst Maps</h2>
+							<p>Loading the map, building the graph, and computing the shortest weighted path between two points. In this case I'm going to navigate between UIC buildings on the East campus, using the footpaths.</p>
+							<br>
+							<a href="https://github.com/HoangBaoNghiBien/CS251_Project/tree/main/Project7_OpenStreetMaps" target="_blank">Github</a>
+							<br>
+							<i>C++</i>
+						</div>
+					  </div>
+					</div>
+
+					<div class="each-project C++ show">
+						<img class="proj-img" src="images/AnimatedBarchart.png">
+						<div class="proj-description container column">
+							<div class="img-description">
+								<h2>Animated Barchart</h2>
+							  	<p>A quick search of “Bar Graph Racer” or “Animated Bar Graphs” will tell you all about it.</p>
+								<br>
+								<a href="https://github.com/HoangBaoNghiBien/CS251_Project/tree/main/Project3_BarchartAnimation" target="_blank">Github</a>
+								<br>
+								<br>
+								<i>C++</i>
+						</div>
+					  </div>
+				</div>
+			</section>
+
+			<!--Footer-->
+			<section class="container column" id="footer">
+				<div class="container row" id="social-container">
+					<a href="https://www.linkedin.com/in/hoang-bao-nghi-bien-6aa1b71a3/" target="_blank">LinkedIn</a>
+					<span>•</span>
+					<a href="https://github.com/HoangBaoNghiBien" target="_blank">Github</a>
+					<span>•</span>
+					<a href="mailto:nghibien.98@gmail.com" target="_blank">Email</a>
+				</div>
+				<div>
+					<p id="copyright">By Hoang Bao Nghi Bien 2021</p>
+				</div>
+			</section>
+			
+		</div>
+		<script src="MyPortfolio.js"></script>
+	</body>
+</html>
