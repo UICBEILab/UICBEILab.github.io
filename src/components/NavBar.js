@@ -21,7 +21,7 @@ const NavBar = () => {
                     {NavBarData.map((item, index) => {
                         return (
                             <li key={index}>
-                                <a href={'#${item.path}'} className={item.cName}>
+                                <a href={item.path} className={item.cName}>
                                     {item.title}
                                 </a>
                                 {/* <Link to={item.path} smooth={true} offset={200} duration={500} className={item.cName}>

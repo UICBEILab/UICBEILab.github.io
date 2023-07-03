@@ -1,30 +1,50 @@
 import React from "react";
 import NavBar from "./NavBar";
+import Home from "./Home";
+import Research from "./Research";
+import Publications from "./Publications";
+import Courses from "./Courses";
+import News from "./News";
+import Team from "./Team";
 import Fullpage, { FullPageSections, FullpageSection, FullpageNavigation } from '@ap.cx/react-fullpage';
 
 const FullPageScroll = () => {
     const SectionStyle = {
         height: '100vh',
         width: "100%",
-        display: 'flex',
         justifyContent: 'center',
-        alignItems: 'center'
+        alignItems: 'center',
+        backgroundColor: '#0e0725',
+        color: '#ffffff',
     }
     return (
         <Fullpage>
+            
             <FullPageSections>
-
+                
                 <FullpageSection style={SectionStyle}>
                     <NavBar />
-                    <h1>Section 1</h1>
+                    <Home />
                 </FullpageSection>
 
                 <FullpageSection style={SectionStyle}>
-                    <h1>Section 2</h1>
+                    <Research />
                 </FullpageSection>
 
                 <FullpageSection style={SectionStyle}>
-                    <h1>Section 3</h1>
+                    <Publications />
+                </FullpageSection>
+
+                <FullpageSection style={SectionStyle}>
+                    <Courses />
+                </FullpageSection>
+
+                <FullpageSection style={SectionStyle}>
+                    <News />
+                </FullpageSection>
+
+                <FullpageSection style={SectionStyle}>
+                    <Team />
                 </FullpageSection>
 
             </FullPageSections>
