@@ -6,7 +6,7 @@ import { NavBarData } from './NavBarData';
 
 const NavBar = () => {
 
-    const [clicked, setClicked] = useState(false);
+    const [clicked, setClicked] = useState(true);
 
     return (
         <nav>
