@@ -34,7 +34,7 @@ function App() {
     //   </header>
     // </div>
     <div className="App">
-      {/* <NavBar /> */}
+      <NavBar />
       {/* <Home />
       <Research />
       <Publications />

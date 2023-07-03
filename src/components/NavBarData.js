@@ -1,32 +1,32 @@
 export const NavBarData = [
     {
         title: 'Home',
-        path: '#home',
+        path: '/',
         cName: 'nav-link'
     },
     {
         title: 'Research',
-        path: '#research',
+        path: '/research',
         cName: 'nav-link'
     },
     {
         title: 'Publications',
-        path: '#publications',
+        path: '/publications',
         cName: 'nav-link'
     },
     {
         title: 'Courses',
-        path: '#courses',
+        path: '/courses',
         cName: 'nav-link'
     },
     {
         title: 'Awards/News',
-        path: '#news',
+        path: '/news',
         cName: 'nav-link'
     },
     {
         title: 'Our Team',
-        path: '#team',
+        path: '/team',
         cName: 'nav-link'
     }
 ]
