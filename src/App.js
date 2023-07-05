@@ -3,8 +3,8 @@
 import React from "react";
 
 import FullPageScroll from "./components/FullPageScroll";
-import NavBar from "./components/NavBar";
-import Home from "./components/Home";
+import NavBar from "./components/NavBar/NavBar";
+import Home from "./components/Home/Home";
 import Courses from "./components/Courses";
 import Research from "./components/Research";
 import Publications from "./components/Publications";
