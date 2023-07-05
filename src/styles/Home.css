@@ -40,7 +40,7 @@
 
 .rightside h1 {
     position: relative;
-    z-index: 100;
+    z-index: 2;
     font-weight: 700px;
     font-size: 45px;
     letter-spacing: 1px;
@@ -51,8 +51,7 @@
 
 .rightside p {
     position: relative;
-    z-index: 100;
-    z-index: 100;
+    z-index: 2;
     font-size: 20px;
     letter-spacing: 1px;
     display: flex;

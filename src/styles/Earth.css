@@ -4,6 +4,7 @@
 } */
 
 #globeViz {
+    z-index: 1;
     position: absolute;
     top: -100px;
     left: 15.0%;
