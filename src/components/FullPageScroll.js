@@ -16,7 +16,7 @@ const FullPageScroll = () => {
         width: "100%",
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#0e0725',
+        backgroundColor: 'var(--navy)',
         color: '#ffffff',
     }
     return (
