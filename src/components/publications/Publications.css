@@ -1,4 +1,21 @@
-#publication {
+/* * {
+    margin-top: -200px;
+} */
+
+/* #publications {
+    padding-left: 15%;
+    min-height: 60vh;
+} */
+
+#publications h1 {
+    font-family: 'Varela Round', sans-serif;
+    color: var(--teal);
+    padding-top: 2%;
+}
+
+
+
+/* #publications {
   padding-left: 15%;
   min-height: 60vh;
 }
@@ -113,4 +130,4 @@ ul {
   .joblist-job-company {
     font-size: 22px;
   }
-}
+} */

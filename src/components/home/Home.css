@@ -8,7 +8,7 @@
 }
 
 #rightside {
-    height: 100vh;
+    height: 50vh;
     width: 50%;
     float: right;
     padding-top: 80px;
@@ -38,7 +38,7 @@
     color: var(--light-slate);
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1280px) {
     #rightside {
         align-items: center;
         float: none;
@@ -72,7 +72,7 @@
         align-items: center;
         float: none;
         margin-left: 25%;
-        margin-top: -150px;
+        margin-top: -200px;
     }
 
     #rightside h1 {
@@ -80,6 +80,7 @@
         z-index: 2;
         font-weight: 350px;
         font-size: 25px;
+        padding-top: 50px;
     }
 
     #rightside p {

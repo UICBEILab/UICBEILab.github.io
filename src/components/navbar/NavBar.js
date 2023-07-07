@@ -2,8 +2,15 @@ import React from 'react';
 import {useState} from 'react';
 import './NavBar.css';
 import { NavBarData } from './NavBarData';
-import { Link } from 'react-scroll';
-
+// import { Link } from 'react-scroll';
+import Home from '../home/Home';
+import Research from '../research/Research';
+import Publications from '../publications/Publications';
+import Courses from '../Courses';
+import News from '../News';
+import Team from '../Team';
+import Contact from '../Contact';
+import { Routes, Route, Link } from "react-router-dom";
 
 const NavBar = () => {
 
@@ -21,12 +28,12 @@ const NavBar = () => {
                     {NavBarData.map((item, index) => {
                         return (
                             <li key={index}>
-                                <a href={item.path} className={item.cName}>
+                                {/* <a href={item.path} className={item.cName}>
                                     {item.title}
-                                </a>
-                                {/* <Link to={item.path} smooth={true} offset={200} duration={500} className={item.cName}>
+                                </a> */}
+                                <Link to={item.path} smooth={true} offset={200} duration={500} className={item.cName}>
                                     {item.title}
-                                </Link> */}
+                                </Link>
                             </li>
                         )
                     })}
