@@ -1,7 +1,3 @@
-/* #globeViz {
-    width: 100%;
-    height: 100vh;
-} */
 
 #globeViz {
     /* position: absolute;
@@ -18,13 +14,14 @@
     z-index: 1;
     position: absolute;
     /* top: -100px; */
-    left: 12.0%;
-    width: 25vw;
+    /* left: 12.0%; */
+    width: 50vw;
     height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding-top: 280px;
     /* margin-top: 80px; */
 }
 
