@@ -10,21 +10,24 @@ import Publications from "./components/publications/Publications";
 import News from "./components/News";
 import Team from "./components/Team";
 import Contact from "./components/Contact";
-
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./styles/Global.css";
 
 function App() {
   return (
-    <div className="App">
-      <NavBar />
-      <Home />
-      <Research />
-      <Team />
-      <Publications />
-      <News />
-      <Courses />
-      <Contact />
-      {/* <FullPageScroll /> */}
+    <div>
+      <Router>
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/research" element={<Research />} />
+          <Route path="/team" element={<Team />} />
+          <Route path="/publications" element={<Publications />} />
+          <Route path="/news" element={<News />} />
+          <Route path="/courses" element={<Courses />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </Router>
     </div>
   );
 }

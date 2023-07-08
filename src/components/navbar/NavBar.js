@@ -36,7 +36,7 @@ const NavBar = () => {
                     })}
                 </ul>
             </div>
-            <Routes>
+            {/* <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/research" element={<Research />} />
                 <Route path="/team" element={<Team />} />
@@ -44,7 +44,7 @@ const NavBar = () => {
                 <Route path="/news" element={<News />} />
                 <Route path="/courses" element={<Courses />} />
                 <Route path="/contact" element={<Contact />} />
-            </Routes>
+            </Routes> */}
 
             {/* If bar is clicked, show the navbar and the close icon */}
             <div id="mobile" onClick={() => setClicked(!clicked)}>

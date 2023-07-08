@@ -26,7 +26,7 @@ const FullPageScroll = () => {
                 <FullpageSection style={SectionStyle}>
                     <NavBar />
                     {/* <Home /> */}
-                    <Routes>
+                    {/* <Routes>
                         <Route path="/" element={<Home />} />
                         <Route path="/research" element={<Research />} />
                         <Route path="/team" element={<Team />} />
@@ -34,7 +34,7 @@ const FullPageScroll = () => {
                         <Route path="/news" element={<News />} />
                         <Route path="/courses" element={<Courses />} />
                         <Route path="/contact" element={<Contact />} />
-                    </Routes>
+                    </Routes> */}
                 </FullpageSection>
 
                 {/* <FullpageSection style={SectionStyle}>
