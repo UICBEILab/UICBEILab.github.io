@@ -7,6 +7,7 @@ import Courses from "../Courses";
 import News from "../News";
 import Team from "../Team";
 import Contact from "../Contact";
+import ResearchContent from "../research/ResearchContent";
 import { Routes, Route } from "react-router-dom";
 import Fullpage, { FullPageSections, FullpageSection, FullpageNavigation } from '@ap.cx/react-fullpage';
 
@@ -36,8 +37,12 @@ const FullPageScroll = () => {
                     </Routes>
                 </FullpageSection>
 
-                <FullpageSection style={SectionStyle}>
+                {/* <FullpageSection style={SectionStyle}>
                     <Research />
+                </FullpageSection>
+
+                <FullpageSection style={SectionStyle}>
+                    <Team />
                 </FullpageSection>
 
                 <FullpageSection style={SectionStyle}>
@@ -45,16 +50,20 @@ const FullPageScroll = () => {
                 </FullpageSection>
 
                 <FullpageSection style={SectionStyle}>
-                    <Courses />
-                </FullpageSection>
-
-                <FullpageSection style={SectionStyle}>
                     <News />
                 </FullpageSection>
 
                 <FullpageSection style={SectionStyle}>
-                    <Team />
+                    <Courses />
                 </FullpageSection>
+
+                <FullpageSection style={SectionStyle}>
+                    <Contact />
+                </FullpageSection> */}
+
+                {/* <FullpageSection style={SectionStyle}>
+                    <ResearchContent />
+                </FullpageSection> */}
 
             </FullPageSections>
         </Fullpage>

@@ -3,6 +3,14 @@ import './Home.css';
 import { useState } from 'react';
 import { Container, Row, Col } from "react-bootstrap"
 import Earth from "./Earth";
+import NavBar from "../navbar/NavBar";
+import { Routes, Route } from "react-router-dom";
+import Research from "../research/Research";
+import Team from "../Team";
+import Publications from "../publications/Publications";
+import News from "../News";
+import Courses from "../Courses";
+import Contact from "../Contact";
 
 const Home = () => {
     return (

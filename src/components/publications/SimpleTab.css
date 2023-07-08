@@ -5,14 +5,10 @@
 .tab-container {
   align-items: center;
   text-align: left;
-  /* margin-top: 10px; */
-  /* min-height: 60vh; */
-  /* min-width: 900px; */
-  /* width: 900px; */
   background-color: var(--navy);
   padding-left: 5%;
   padding-right: 5%;
-  padding-top: 1%;
+  /* padding-top: 1%; */
 }
 
 .tabs {
@@ -20,42 +16,12 @@
   position: relative;
 }
 
-.tab-item {
-  /* min-width: 180px; */
-  padding: 16px 20px 11px 20px;
-  font-size: 20px;
-  text-align: center;
-  color: var(--teal);
-  background-color: var(--navy);
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  border-bottom: 5px solid transparent;
-  opacity: 0.6;
-  cursor: pointer;
-  transition: all 0.5s ease;
-}
-
-.tab-item:hover {
-  opacity: 1;
-  background-color: rgba(194, 53, 100, 0.05);
-  border-color: rgba(194, 53, 100, 0.1);
-}
-
 .tab-item.active {
   opacity: 1;
-  background-color: rgba(194, 53, 100, 0.2);
+  background-color: var(--dark-teal);
   border-color: var(--teal);
   color: var(--lightest-slate);
 }
-
-/* .tab-content {
-  padding: 28px 20px;
-} */
-
-/* .tab-pane {
-  color: #333;
-  display: none;
-} */
 
 .tab-container {
   text-align: left;
@@ -64,15 +30,11 @@
   background-color: var(--navy);
 }
 
-.tabs {
-  display: flex;
-  position: relative;
-}
 
 .tab-item {
   min-width: 80px;
   padding: 16px 20px 11px 20px;
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
   color: var(--teal);
   background-color: var(--navy);
@@ -86,18 +48,12 @@
 
 .tab-item:hover {
   opacity: 1;
-  background-color: rgba(194, 53, 100, 0.05);
-  border-color: rgba(194, 53, 100, 0.1);
+  border-color: var(--dark-teal);
 }
 
-.tab-item.active {
-  opacity: 1;
-  background-color: var(--dark-teal);
-  border-color: var(--teal);
-}
 
 .tab-content {
-  padding: 28px 20px;
+  padding: 20px 20px;
 }
 
 .tab-pane {
@@ -109,8 +65,23 @@
   display: block;
 }
 
-/* .tab-pane h2 {
-  font-size: 24px;
-  margin-bottom: 8px;
-  color: var(--dark-teal);
-} */
+.tab-desc {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tab-desc li {
+  position: relative;
+  padding-left: 30px;
+  /* padding-bottom: 2px; */
+  font-size: 16px;
+  color: var(--light-slate);
+}
+
+.tab-desc li::before {
+  content: "▹    ";
+  color: var(--teal);
+  position: absolute;
+  left: 0;
+}

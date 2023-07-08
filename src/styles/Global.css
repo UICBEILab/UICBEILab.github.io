@@ -1,10 +1,13 @@
 :root {
     --white: #FFFFFF;
     --navy: #000010;
+    --light-navy: #0a051b;
+    --lightest-navy: #233554;
     --black: #000000;
     --teal: #64CCC5;
     --dark-teal: #176B87;
     --mint: #DAFFFB;
+    --slate: #8892b0;
     --light-slate: #a8b2d1;
     --lightest-slate: #ccd6f6;
     --gif-background: #0e0e0e;

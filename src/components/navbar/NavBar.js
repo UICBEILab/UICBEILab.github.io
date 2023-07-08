@@ -28,9 +28,6 @@ const NavBar = () => {
                     {NavBarData.map((item, index) => {
                         return (
                             <li key={index}>
-                                {/* <a href={item.path} className={item.cName}>
-                                    {item.title}
-                                </a> */}
                                 <Link to={item.path} smooth={true} offset={200} duration={500} className={item.cName}>
                                     {item.title}
                                 </Link>
@@ -39,6 +36,15 @@ const NavBar = () => {
                     })}
                 </ul>
             </div>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/research" element={<Research />} />
+                <Route path="/team" element={<Team />} />
+                <Route path="/publications" element={<Publications />} />
+                <Route path="/news" element={<News />} />
+                <Route path="/courses" element={<Courses />} />
+                <Route path="/contact" element={<Contact />} />
+            </Routes>
 
             {/* If bar is clicked, show the navbar and the close icon */}
             <div id="mobile" onClick={() => setClicked(!clicked)}>
