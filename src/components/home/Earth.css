@@ -16,12 +16,14 @@
     /* top: -100px; */
     /* left: 12.0%; */
     width: 50vw;
-    height: 50vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding-top: 280px;
+    margin: 0;
+    padding: 0;
+    /* padding-top: 280px; */
     /* margin-top: 80px; */
 }
 
@@ -29,7 +31,7 @@
     #globeViz {
         z-index: 1;
         position: absolute;
-        top: 20px;
+        top: 70px;
         left: 35.0%;
         width: 25vw;
         height: 50vh;
