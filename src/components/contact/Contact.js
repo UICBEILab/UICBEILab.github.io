@@ -20,7 +20,7 @@ const Contact = () => {
             <div className="contact-content">
                 <div className="map">
                     <iframe
-                        src="http://maps.uic.edu/"
+                        src="https://maps.uic.edu/"
                         width="100%"
                         height="650"
                         title="UIC Map"
