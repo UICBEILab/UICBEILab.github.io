@@ -33,6 +33,22 @@ export const PublicationsData = [
         content: [
             "Palani, H., Acosta J., Karatas, A., and Derrible, S. (2023) “Predicting Energy Use Intensity of US Hotel Buildings Using CBECS Microdata”, ASCE Inspire (Abstract Accepted",
             "Luna H., Palani, H., and Karatas, A., 2023 “Cost-Effective, Scalable and User-Friendly Temperature Control System for Measuring Thermal Performance of Building Envelope Systems in Environmental Chambers”, I3 Computing in Civil Engineering, (Accepted)",
+            "Palani, H. and Karatas, A., and Tayor T. (2024) “Cost-Effective Hot Box Apparatus to Measure Thermal Performance of Building Envelopes”, CRC 2024 Conference (Abstract Accepted).",
+            "Khaleghi, H and Karatas, A., (2024) “Experimental Framework to Measure Dynamic Thermal Resilience of Wall Panels under Extreme Weather Conditions”, CRC 2024 Conference (Abstract Accepted).",
+            "Rener, A., Karatas, A., and Cole, Matt, (2022) “Innovative Model for Forecasting Trailer Usage for Prefabricated Exterior Wall Panels”, ISARC 2022, Bogota, Colombia.",
+            "Palani, H., Acosta J., Karatas, A., and Derrible, S. (2022) “Understanding the Interrelationship between Energy-Use Behavior and Socio-Demographic Profile”, ITISE-2022, Gran Canaria, Spain.",
+            "Palani, H. and Karatas, A., (2022) “Integrated Energy-Use Model to Identify Energy-Use Profile of Hotel Guests”, Computing in Civil Engineering Orlando, FL, 688-695",
+            "Palani, H. and Karatas, A., (2021) “Identifying Energy Use Behaviors of Hotel Guests”, CSCE 2021.",
+            "Karatas, A., & Al-Sharif, S., (2020). Schedule and Cost Forecasting Model for Nuclear Power Plant Projects. In Construction Research Congress 2020: Project Management and Controls, Materials, and Contracts (pp. 721-729). Reston, VA: American Society of Civil Engineers.",
+            "Palani, H. and Karatas, A., (2020) “Reducing Occupants Energy Consumptions in Hotel Buildings” Building Performance Analysis Conference and SimBuild, ASHRAE and IBPSA-USA.",
+            "Albayati A. and Karatas, A. (2019) “Fall Prevention Supplementary Devices for Bridge Construction Workers: A Life Cycle Cost Analysis”, Proceedings of the Canadian Society for Civil Engineering International Construction Specialty Conference (ICSC’19), Montreal, Canada.",
+            "Staple N. and Karatas, A. (2019) “A Study of the U.S. RoofingIndustryand its Workforce”, Proceedings of the Canadian Society for Civil Engineering International Construction Specialty Conference (ICSC’19), Montreal, Canada.",
+            "Alwerfalli, D., Karatas, A., & Alshammari, M. (2017). “Application of quality management systems (QMS) in construction industry”. In Proceedings of the International Conference on Industrial Engineering and Operations Management (p. 46).",
+            "Alsharif, S. and Karatas, A. “A Framework for Identifying Causal Factors of Delay in Nuclear Power Plant Projects.”Procedia Engineering145 (2016): 1486-1492.",
+            "Karatas, A, Carol C. Menassa, and Allisandra Stoiko. (2015)”A Framework for Delivering Targeted Occupancy Interventions to Reduce Energy Usage in Buildings.” Procedia Engineering",
+            "Karatas, A., and El-Rayes, K. (2014) ‘Optimal Configurations of Design and Construction Decisions for Maximizing Social Quality-of-Life for Housing Residents’. Construction Research Congress (CRC) 2014: pp. 436-443. doi: 10.1061/9780784413517.045.",
+            "Karatas, A., and El-Rayes, K. (2014) “Maximizing Occupants Comfort in Affordable Housing Units.”Computing in Civil and Building Engineering 2040-2046). ASCE. doi: 10.1061/9780784413616.253.",
+            "Karatas, A. and El-Rayes, K. (2012) ‘Evaluating and Quantifying Sustainable Development in Urban Neighborhoods’ ICSDEC 2012: pp. 214-221. doi: 10.1061/9780784412688.025.",
         ]
     },
 ]

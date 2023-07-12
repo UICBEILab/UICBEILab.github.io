@@ -2,10 +2,7 @@ import React from "react";
 import { PublicationsData } from './PublicationsData';
 import SimpleTab, {Tab} from "./SimpleTab";
 import './Publications.css';
-// import FadeBottom from "../FadeBottom";
 import Fade from 'react-reveal/Fade';
-// import { ScrollContainer, Animator, ScrollPage, Fade, batch } from "react-scroll-motion";
-import { Scroll } from "@react-three/drei";
 
 const Publications = () => {
     return (

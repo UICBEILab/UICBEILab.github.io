@@ -2,17 +2,21 @@
     font-family: 'Varela Round', sans-serif;
 }
 
+#home {
+    min-height: 100vh;
+    font-family: 'Varela Round', sans-serif;
+}
 #row {
     /* margin-top: 200px; */
     /* padding: 20px 0 100px 0; */
 }
 
 #rightside {
-    z-index: 2;
+    /* z-index: 2; */
     height: 100vh;
     width: 45%;
     float: right;
-    padding-top: 280px;
+    padding-top: 200px;
     padding-right: 30px;
     position: relative;
     /* background-color: var(--navy); */
@@ -46,7 +50,7 @@
         align-items: center;
         float: none;
         margin-left: 25%;
-        margin-top: -150px;
+        /* margin-top: -20px; */
         background-color: transparent;
     }
 
@@ -55,7 +59,6 @@
         z-index: 2;
         font-weight: 350px;
         font-size: 40px;
-        padding-top: 120px;
     }
 
     #rightside p {
@@ -76,7 +79,7 @@
         align-items: center;
         float: none;
         margin-left: 25%;
-        margin-top: -200px;
+        /* margin-top: -200px; */
         background-color: transparent;
     }
 
@@ -85,7 +88,7 @@
         z-index: 2;
         font-weight: 350px;
         font-size: 25px;
-        padding-top: 50px;
+        /* padding-top: 50px; */
     }
 
     #rightside p {

@@ -2,7 +2,7 @@
     --white: #FFFFFF;
     --navy: #000010;
     --light-navy: #0a051b;
-    --lightest-navy: #233554;
+    --lightest-navy: #0f1727;
     --black: #000000;
     --teal: #64CCC5;
     --dark-teal: #176B87;
@@ -14,4 +14,7 @@
 
     --card-height: 200px;
     --card-width: 200px;
+
+    --surface-color: #fff;
+    --curve: 40;
 }

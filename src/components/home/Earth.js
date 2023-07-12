@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import Globe from 'react-globe.gl';
 import './Earth.css';
 

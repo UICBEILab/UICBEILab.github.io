@@ -1,0 +1,76 @@
+#news {
+    min-height: 100vh;
+}
+
+#news h1 {
+    font-family: 'Varela Round', sans-serif;
+    color: var(--teal);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.news-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.awards-container {
+    flex: 1;
+    padding-right: 20px;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.twitter-news {
+  flex: 1;
+}
+
+/* The device with borders */
+.smartphone {
+  position: relative;
+  width: 374px;
+  height: 728px;
+  margin: auto;
+  border: 16px #373737 solid;
+  border-top-width: 60px;
+  border-bottom-width: 60px;
+  border-radius: 36px;
+  margin-top: -20px;
+}
+
+/* The horizontal line on the top of the device */
+.smartphone:before {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 5px;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #565656;
+  border-radius: 10px;
+}
+
+/* The circle on the bottom of the device */
+.smartphone:after {
+  content: '';
+  display: block;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 50%;
+  bottom: -65px;
+  transform: translate(-50%, -50%);
+  background: #565656;
+  border-radius: 50%;
+}
+
+/* The screen (or content) of the device */
+.smartphone .content {
+  width: 342px;
+  height: 608px;
+  background: white;
+}

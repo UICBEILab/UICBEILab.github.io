@@ -1,43 +1,43 @@
 export const NavBarData = [
     {
         title: 'Home',
-        path: '/',
+        path: '#home',
         component: 'Home',
         cName: 'nav-link'
     },
     {
         title: 'Research',
-        path: '/research',
+        path: '#research',
         component: 'Research',
         cName: 'nav-link'
     },
     {
         title: 'Our Team',
-        path: '/team',
+        path: '#team',
         component: 'Team',
         cName: 'nav-link'
     },
     {
         title: 'Publications',
-        path: '/publications',
+        path: '#publications',
         component: 'Publications',
         cName: 'nav-link'
     },
     {
         title: 'Awards/News',
-        path: '/news',
+        path: '#news',
         component: 'News',
         cName: 'nav-link'
     },
     {
         title: 'Courses',
-        path: '/courses',
+        path: '#courses',
         component: 'Courses',
         cName: 'nav-link'
-    }, 
+    },
     {
         title: 'Contact',
-        path: '/contact',
+        path: '#contact',
         component: 'Contact',
         cName: 'nav-link'
     },

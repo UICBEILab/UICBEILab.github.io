@@ -1,36 +1,27 @@
-// import logo from './logo.svg';
+import logo from './logo.svg';
 import './App.css';
-import React from "react";
-// import FullPageScroll from "./components/navbar/FullPageScroll";
-import NavBar from "./components/navbar/NavBar";
-import Home from "./components/home/Home";
-import Courses from "./components/Courses";
-import Research from "./components/research/Research";
-import Publications from "./components/publications/Publications";
-import News from "./components/News";
-import Team from "./components/Team";
-import Contact from "./components/Contact";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import FullPageScroll from "react-full-page-scroll";
 import "./styles/Global.css";
+
+import NavBar from './components/navbar/NavBar';
+import Home from './components/home/Home';
+import Research from './components/research/Research';
+import Team from './components/team/Team';
+import Publications from './components/publications/Publications';
+import News from './components/news/News';
+import Courses from './components/courses/Courses';
+import Contact from './components/contact/Contact';
 
 function App() {
   return (
-    <div>
-      <Router>
-        <NavBar />
-        {/* <FullPageScroll> */}
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/research" element={<Research />} />
-            <Route path="/team" element={<Team />} />
-            <Route path="/publications" element={<Publications />} />
-            <Route path="/news" element={<News />} />
-            <Route path="/courses" element={<Courses />} />
-            <Route path="/contact" element={<Contact />} />
-          </Routes>
-        {/* </FullPageScroll> */}
-      </Router>
+    <div className="App">
+      <NavBar />
+      <Home />
+      <Research />
+      <Team />
+      <Publications />
+      <News username="@BEI_Lab"/>
+      <Courses />
+      <Contact />
     </div>
   );
 }

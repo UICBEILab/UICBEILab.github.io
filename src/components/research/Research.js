@@ -1,9 +1,8 @@
 import React, { useState } from "react";
-import Grid from "@material-ui/core/Grid";
-import Paper from "@material-ui/core/Paper";
 import './Research.css';
 import { ResearchData } from './ResearchData';
 import ResearchContent from "./ResearchContent";
+import Fade from 'react-reveal/Fade';
 
 const Research = () => {
 
@@ -22,29 +21,33 @@ const Research = () => {
 
     return (
         <div id="research">
-            <h1>Research</h1>
+            
+            <Fade bottom>
+                <h1>Research</h1>
+            </Fade>
+            
             {selectedResearch ? (
                 <ResearchContent research={selectedResearch} clearResearch={clearSelectedResearch} />
             ) : (
-            <div className="cards">
-                <ul className="projects-grid">
-                    {ResearchData.map((item) => {
-                        return (
-                            <li className="projects-card" key={item.aKey}>
-                                <div className="card">
-                                    <img
-                                        id="image"
-                                        src={item.url}
-                                        alt={item.title}
-                                        onClick={() => handleImageClick(item)}
-                                    />
-                                </div>
-                                <h5 className="card-title">{item.title}</h5>
-                            </li>
-                        );
-                    })}
-                </ul>
-            </div>
+                <div className="cards">
+                    <ul className="projects-grid">
+                        {ResearchData.map((item) => {
+                            return (
+                                <li className="projects-card" key={item.aKey}>
+                                    <div className="card">
+                                        <img
+                                            id="image"
+                                            src={item.url}
+                                            alt={item.title}
+                                            onClick={() => handleImageClick(item)}
+                                        />
+                                    </div>
+                                    <h5 className="card-title">{item.title}</h5>
+                                </li>
+                            );
+                        })}
+                    </ul>
+                </div>
             )}
             {/* {selectedResearch && (
                 <ResearchContent research={selectedResearch} />
