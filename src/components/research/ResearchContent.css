@@ -17,7 +17,7 @@ h3 {
 
 .content-box button {
   background-color: var(--dark-teal);
-  color: var(--navy);
+  color: var(--background-color);
   border: none;
   border-radius: 5px;
   padding: 10px 20px;
@@ -71,7 +71,7 @@ h3 {
 
     .content-box button {
       background-color: var(--dark-teal);
-      color: var(--navy);
+      color: var(--background-color);
       border: none;
       border-radius: 5px;
       padding: 10px 20px;

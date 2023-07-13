@@ -1,15 +1,19 @@
 :root {
     --white: #FFFFFF;
-    --navy: #000010;
+    --background-color: #FFFFFF;
     --light-navy: #0a051b;
     --lightest-navy: #0f1727;
     --black: #000000;
     --teal: #64CCC5;
+    --teal-sheer: #64ccc59a;
     --dark-teal: #176B87;
+    --dark-teal-sheer: #176b87aa;
     --mint: #DAFFFB;
-    --slate: #8892b0;
-    --light-slate: #a8b2d1;
-    --lightest-slate: #ccd6f6;
+    --slate: #333333;
+    --light-slate: #565656;
+    --lightest-slate: #777777;
+
+    --card-color: #CFCFCF;
     --gif-background: #0e0e0e;
 
     --card-height: 200px;

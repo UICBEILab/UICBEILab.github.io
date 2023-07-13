@@ -13,20 +13,24 @@
 }
 
 nav {
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
     z-index: 4;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--navy);
-    padding: 20px 80px;
+    background-color: var(--background-color);
+    padding: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    width: 100%;
 }
 
 #navbar {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-grow: 1;
 }
 
 #navbar li{
@@ -70,15 +74,17 @@ For mobile
 #mobile i{
     color: var(--light-slate);
     align-items: center;
+    font-size: 25px;
+    cursor: pointer;
 }
 
 /* 
 For upgrading the screen devices:
-If the screen size is less than 1080px, then the navbar will be hidden 
+If the screen size is less than 1280px, then the navbar will be hidden 
 and the mobile icon will be displayed. 
 */
 
-@media screen and (max-width: 1280px) {
+/* @media screen and (max-width: 1280px) {
     #navbar {
         display: flex;
         flex-direction: column;
@@ -89,7 +95,7 @@ and the mobile icon will be displayed.
         right: -50px;
         width: 300px;
         height: 100vh;
-        background-color: var(--navy);
+        background-color: var(--background-color);
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
         padding: 20px 0 0 10px;
         transition: 0.3s ease-in-out;
@@ -116,9 +122,59 @@ and the mobile icon will be displayed.
         cursor: pointer;
     }
 
+} */
+
+@media screen and (max-width: 1280px) {
+    #navbar {
+        display: none;
+    }
+
+    #mobile {
+        display: block;
+    }
+
+    #mobile i {
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    #navbar.active {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 60px;
+        right: -300px;
+        width: 300px;
+        height: 100vh;
+        background-color: var(--background-color);
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 20px 0 0 10px;
+        transition: 0.3s ease-in-out;
+    }
+
+    #navbar.active {
+        right: 0;
+    }
+
+    #navbar li {
+        margin-bottom: 25px;
+    }
+
+    #navbar li a {
+        font-size: 1.3rem;
+    }
+
+    #logo {
+        height: 40px;
+        width: 40px;
+    }
 }
 
-@media screen and (max-width: 695px) {
+
+
+/* @media screen and (max-width: 695px) {
     #navbar {
         display: flex;
         flex-direction: column;
@@ -129,7 +185,7 @@ and the mobile icon will be displayed.
         right: -80px;
         width: 300px;
         height: 100vh;
-        background-color: var(--navy);
+        background-color: var(--background-color);
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
         padding: 20px 0 0 10px;
         transition: 0.3s ease-in-out;
@@ -160,4 +216,4 @@ and the mobile icon will be displayed.
         height: 40px;
         width: 40px;
     }
-}
+} */

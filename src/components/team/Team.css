@@ -5,38 +5,65 @@
 #team h1 {
   font-family: 'Varela Round', sans-serif;
   color: var(--teal);
-  padding-top: 40px;
+  padding-top: 100px;
   padding-bottom: 40px;
 }
 
 .team-container {
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap: 20px; */
+
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    gap: 1rem;
+    margin-left: 10vw;
+    /* margin: 4rem 5vw;
+    padding: 0;
+    list-style-type: none; */
+}
+
+@media (max-width: 1000px) {
+  .team-container {
+    grid-template-columns: repeat(2, minmax(150px, 1fr));
+  }
+}
+
+@media (max-width: 650px) {
+  .team-container {
+    grid-template-columns: repeat(1, minmax(150px, 1fr));
+  }
 }
 
 .member-card {
   display: flex;
   height: 350px;
-  width: 90%;
-  background-color: var(--lightest-navy);
+  width: 280px;
+  background-color: var(--card-color);
   color: var(--light-slate);
   border-radius: 20px;
   padding: 20px;
   position: relative; 
+
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 4rem 5vw;
+  padding: 0;
+  list-style-type: none; */
 }
 
 .member-card:hover {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Add a box shadow on hover */
-  filter: brightness(1.3); /* Increase brightness on hover */
+  filter: brightness(1.1); /* Increase brightness on hover */
 }
 
 .member-info {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 30%;
+  width: 100%;
   transition: transform 0.3s; /* Add transition for smooth animation */
 }
 
@@ -102,7 +129,7 @@
   color: var(--light-slate);
 }
 
-.member-content {
+/* .member-content {
   width: 70%;
   text-align: left;
   align-self: center;
@@ -112,6 +139,6 @@
   margin-bottom: 10px;
   font-size: 1.1rem;
   color: var(--slate);
-}
+} */
 
 

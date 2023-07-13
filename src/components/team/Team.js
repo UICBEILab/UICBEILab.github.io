@@ -54,11 +54,11 @@ const Team = ({ data }) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="member-content">
+                        {/* <div className="member-content">
                             {member.content.map((line, index) => (
                                 <p key={index}>{line}</p>
                             ))}
-                        </div>
+                        </div> */}
                     </div>
                 ))}
             </div>

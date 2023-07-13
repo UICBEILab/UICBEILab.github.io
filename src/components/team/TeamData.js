@@ -20,7 +20,7 @@ export const TeamData = [
         name: "Hevar Palani, PhD Student",
         image: "/assets/TeamPic/HevarPalani.jpeg",
         resumeLink: "",
-        linkedinLink: "",
+        linkedinLink: "https://www.linkedin.com/in/hevar-palani-1757731bb/",
         content: [
             "Hevar earned his MSc degree in Civil engineering from Lawrence Technological University. ",
             "He was a 2019 - 2021 Fulbright Student Program Grantee.",
@@ -31,34 +31,22 @@ export const TeamData = [
     {
         aKey: "3",
         title: "Graduate Students",
-        name: "Sharan Gottuparthi, Graduate Student",
-        image: "",
-        resumeLink: "",
-        linkedinLink: "",
-        content: [
-            "Sharan is currently pursuing his MSc in Computer Science at UIC.",
-            "For the BEI Lab, he works on Smart Environmental Management Systems for Improving Occupants Comfort.",
-        ]
-    },
-    {
-        aKey: "4",
-        title: "Graduate Students",
         name: "Banuprasad Velumani, PhD Student",
         image: "/assets/TeamPic/BanuprasadVelumani.jpeg",
         resumeLink: "",
-        linkedinLink: "",
+        linkedinLink: "https://www.linkedin.com/in/banuprasad-v-a418a5207/",
         content: [
             "Banuprasad is currently pursuing his PhD in Civil, Environmental and Materials Engineering at UIC.",
             "For BEI Lab, he is mainly focusing on data collection and analyzes of energy efficiency of construction systems.",
         ]
     },
     {
-        aKey: "5",
+        aKey: "4",
         title: "Graduate Students",
         name: "Hamed Khaleghi, PhD Student",
         image: "/assets/TeamPic/HamedKhaleghi.jpeg",
         resumeLink: "",
-        linkedinLink: "",
+        linkedinLink: "https://www.linkedin.com/in/hamedkhaleghi/",
         content: [
             "Hamed Hamed earned his Bachelor of Engineering degree in Civil Engineering from Sharif University of Technology.",
             "He is currently pursuing his PhD in Civil, Environmental, and Materials Engineering at UIC under the supervision of Dr. Karatas.",
@@ -66,12 +54,12 @@ export const TeamData = [
         ]
     },
     {
-        aKey: "6",
+        aKey: "5",
         title: "CURA Undergraduate Student",
         name: "Jildardo Luna",
         image: "/assets/TeamPic/JildardoLuna.jpeg",
         resumeLink: "",
-        linkedinLink: "",
+        linkedinLink: "https://www.linkedin.com/in/jildardo-luna-96744214b/",
         content: [
             "Jildardo works as a CURA awarded at BEI Lab.",
             "He is pursuing his bachelor’s degree in Civil & Material Engineering at UIC.",
@@ -80,7 +68,7 @@ export const TeamData = [
         ]
     },
     {
-        aKey: "7",
+        aKey: "6",
         title: "Undergraduate Research Student",
         name: "Michael Nwaigbo",
         image: "/assets/TeamPic/MichaelNwaigbo.jpeg",

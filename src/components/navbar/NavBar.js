@@ -5,7 +5,13 @@ import "./NavBar.css";
 
 const NavBar = () => {
 
-    const [clicked, setClicked] = useState(true);
+    // const [clicked, setClicked] = useState(true);
+
+    const [navbarActive, setNavbarActive] = useState(false);
+
+    const handleNavbarClick = () => {
+        setNavbarActive(!navbarActive);
+    };
 
     return (
         <nav>
@@ -14,7 +20,12 @@ const NavBar = () => {
             </a>
 
             <div>
-                <ul id="navbar" className={clicked ? "#navbar active" : "#navbar"}>
+                {/* <ul id="navbar" className={clicked ? "#navbar active" : "#navbar"}> */}
+                <ul
+                    id="navbar"
+                    className={navbarActive ? "active" : ""}
+                    onClick={handleNavbarClick}
+                >
                     {NavBarData.map((item, index) => {
                         return (
                             <li key={index}>
@@ -28,9 +39,15 @@ const NavBar = () => {
             </div>
 
             {/* If bar is clicked, show the navbar and the close icon */}
-            <div id="mobile" onClick={() => setClicked(!clicked)}>
-                {/* {isMobile ? <i className="fas fs-times"></i> : <i className="fas fs-bars"></i>} */}
+            {/* <div id="mobile" onClick={() => setClicked(!clicked)}>
                 <i id="bar" className={clicked ? 'fas fa-bars' : 'fas fa-times'}></i>
+            </div> */}
+
+            <div id="mobile" onClick={handleNavbarClick}>
+                <i
+                    id="bar"
+                    className={navbarActive ? "fas fa-times" : "fas fa-bars"}
+                ></i>
             </div>
         </nav>
     );

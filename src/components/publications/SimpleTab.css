@@ -5,7 +5,7 @@
 .tab-container {
   align-items: center;
   text-align: left;
-  background-color: var(--navy);
+  background-color: var(--background-color);
   padding-left: 5%;
   padding-right: 5%;
 }
@@ -17,16 +17,16 @@
 
 .tab-item.active {
   opacity: 1;
-  background-color: var(--dark-teal);
+  background-color: var(--teal-sheer);
   border-color: var(--teal);
-  color: var(--lightest-slate);
+  color: var(--slate);
 }
 
 .tab-container {
   text-align: left;
   /* margin-top: 100px; */
   width: 100%;
-  background-color: var(--navy);
+  background-color: var(--background-color);
 }
 
 
@@ -35,9 +35,11 @@
   padding: 16px 20px 11px 20px;
   /* font-size: 22px; */
   font-size: 1.2rem;
+  font-style: bold;
+  text-transform: uppercase;
   text-align: center;
   color: var(--teal);
-  background-color: var(--navy);
+  background-color: var(--background-color);
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   border-bottom: 5px solid transparent;

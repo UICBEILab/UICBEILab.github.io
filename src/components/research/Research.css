@@ -1,5 +1,5 @@
 #research {
-    background-color: var(--navy);
+    background-color: var(--background-color);
     padding-left: 5%;
     padding-right: 5%;
     min-height: 100vh;
@@ -8,7 +8,7 @@
 #research h1 {
     font-family: 'Varela Round', sans-serif;
     color: var(--teal);
-    padding-top: 40px;
+    padding-top: 100px;
     padding-bottom: 40px;
 }
 
@@ -17,9 +17,9 @@
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(200px, 1fr));
-  grid-gap: 10px;
+  grid-gap: 20px;
 }
-@media (max-width: 700px) {
+@media (max-width: 900px) {
   .projects-grid {
     grid-template-columns: repeat(1, minmax(150px, 1fr));
   }
@@ -34,9 +34,9 @@
     position: relative;
     height: 100%;
     padding: 1rem 1.75rem;
-    /* background-color: var(--navy); */
     border-radius: 8px;
     align-items: center;
+    justify-content: center;
 }
 
 .projects-card h5 {
@@ -50,7 +50,7 @@
 
 #image {
     border-radius: 8px;
-    width: 200px;
+    width: 400px;
     height: 200px;
 }
 
@@ -78,7 +78,7 @@
 .card {
     background-color: transparent !important;
 
-    width: 205px;
+    width: 405px;
     height: 205px;
     color: rgb(88 199 250 / 0%);
     cursor: pointer;
