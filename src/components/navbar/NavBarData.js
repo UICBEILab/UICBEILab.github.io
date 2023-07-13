@@ -41,11 +41,5 @@ export const NavBarData = [
         component: 'Contact',
         cName: 'nav-link'
     },
-        {
-        title: 'Contact2',
-        path: '#contact2',
-        component: 'Contact',
-        cName: 'nav-link'
-    },
 
 ]
