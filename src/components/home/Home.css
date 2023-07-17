@@ -6,94 +6,127 @@
     min-height: 100vh;
     font-family: 'Varela Round', sans-serif;
 }
+
 #row {
-    /* margin-top: 200px; */
-    /* padding: 20px 0 100px 0; */
+    display: flex;
+    justify-content: space-between; /* Divide the screen into two columns */
+    align-items: center;
+    padding: 20px 0 100px 0;
+    background-image: url("../../../public/assets/Chicago.jpeg"); /* Set the background image */
+    background-size: cover;
+    background-position: center;
 }
 
-#rightside {
-    /* z-index: 2; */
-    height: 100vh;
-    width: 45%;
-    float: right;
-    padding-top: 200px;
+#col {
+    width: 50%;
+    padding: 0 50px;
+}
+
+#leftside {
+    width: 80%;
+    padding-left: 30px;
     padding-right: 30px;
     position: relative;
     background-color: transparent;
 }
 
-#rightside h1 {
-    position: relative;
-    z-index: 2;
+#leftside h1 {
     font-weight: 700px;
-    font-size: 45px;
+    font-size: 50px;
+    font-style: bold;
     letter-spacing: 1px;
     line-height: 1;
     margin-bottom: 20px;
     display: block;
-    color: var(--teal);
+    color: var(--lighter-teal);
 }
 
-#rightside p {
-    position: relative;
-    z-index: 2;
-    font-size: 20px;
+#leftside p {
+    font-size: 25px;
+    font-style: bold;
     letter-spacing: 1px;
     display: flex;
     align-items: center;
-    color: var(--light-slate);
+    color: var(--slate);
 }
 
-@media screen and (max-width: 1280px) {
-    #rightside {
-        align-items: center;
-        float: none;
-        margin-left: 25%;
-        /* margin-top: -20px; */
-        background-color: transparent;
-    }
+#rightside {
+    padding-top: 30%;
+    padding-right: 100px;
+    position: relative;
+    background-color: transparent;
+}
 
-    #rightside h1 {
-        position: relative;
-        z-index: 2;
-        font-weight: 350px;
-        font-size: 40px;
-    }
-
-    #rightside p {
-        position: relative;
-        z-index: 2;
-        font-size: 20px;
-    }
-
+@media screen and (max-width: 800px) {
     #leftside {
-        justify-items: center;
-        align-items: center;
-    }
-
-}
-
-@media screen and (max-width: 695px) {
-    #rightside {
-        align-items: center;
-        float: none;
-        margin-left: 25%;
-        /* margin-top: -200px; */
+        width: 80%;
+        padding-left: 30px;
+        padding-right: 30px;
+        position: relative;
         background-color: transparent;
     }
 
-    #rightside h1 {
-        position: relative;
-        z-index: 2;
-        font-weight: 350px;
-        font-size: 25px;
-        /* padding-top: 50px; */
+    #leftside h1 {
+        font-weight: 700px;
+        font-size: 40px;
+        font-style: bold;
+        letter-spacing: 1px;
+        line-height: 1;
+        margin-bottom: 20px;
+        display: block;
+        color: var(--teal);
     }
 
-    #rightside p {
-        position: relative;
-        z-index: 2;
-        font-size: 15px;
+    #leftside p {
+        font-size: 20px;
+        font-style: bold;
+        letter-spacing: 1px;
+        display: flex;
+        align-items: center;
+        color: var(--slate);
     }
 
+    #rightside {
+        padding-top: 30%;
+        padding-right: 100px;
+        position: relative;
+        background-color: transparent;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #leftside {
+        width: 80%;
+        padding-left: 30px;
+        padding-right: 30px;
+        position: relative;
+        background-color: transparent;
+    }
+
+    #leftside h1 {
+        font-weight: 700px;
+        font-size: 40px;
+        font-style: bold;
+        letter-spacing: 1px;
+        line-height: 1;
+        margin-bottom: 20px;
+        display: block;
+        color: var(--teal);
+    }
+
+    #leftside p {
+        font-size: 20px;
+        font-style: bold;
+        letter-spacing: 1px;
+        display: flex;
+        align-items: center;
+        color: var(--slate);
+    }
+
+    #rightside {
+        padding-top: 30%;
+        padding-right: 100px;
+        position: relative;
+        background-color: transparent;
+    }
 }

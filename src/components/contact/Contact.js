@@ -12,6 +12,10 @@ const Contact = () => {
         window.location.href = 'mailto:akaratas@uic.edu';
     };
 
+    const handleAddressClick = () => {
+        window.open('https://www.google.com/maps/search/?api=1&query=842+W+Taylor+St%2C+Chicago%2C+IL+60607');
+    };
+
     return (
         <div id="contact">
             <Fade bottom>
@@ -34,6 +38,10 @@ const Contact = () => {
                     <div className="email" onClick={handleEmailClick}>
                         <i className="fas fa-envelope"></i>
                         <span>akaratas@uic.edu</span>
+                    </div>
+                    <div className="address" onClick={handleAddressClick}>
+                        <i className="fas fa-map-marker-alt"></i>
+                        <span> UIC ERF (Engineering Research Facility)</span>
                     </div>
                     <a
                         className="twitter-link"

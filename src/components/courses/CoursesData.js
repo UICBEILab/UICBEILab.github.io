@@ -23,4 +23,10 @@ export const CoursesData = [
         pdf: "/assets/coursesPDF/CME_587_Construction-Estimating-and-Scheduling_Syllabus.pdf",
         image: "/assets/coursesPDF/course2.png",
     },
+    {
+        number: "XXX 587",
+        name: "XXX",
+        pdf: "/assets/coursesPDF/CME_587_Construction-Estimating-and-Scheduling_Syllabus.pdf",
+        image: "/assets/coursesPDF/course2.png",
+    },
 ]

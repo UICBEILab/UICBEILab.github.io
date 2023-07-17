@@ -78,52 +78,6 @@ For mobile
     cursor: pointer;
 }
 
-/* 
-For upgrading the screen devices:
-If the screen size is less than 1280px, then the navbar will be hidden 
-and the mobile icon will be displayed. 
-*/
-
-/* @media screen and (max-width: 1280px) {
-    #navbar {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
-        position: fixed;
-        top: 90px;
-        right: -50px;
-        width: 300px;
-        height: 100vh;
-        background-color: var(--background-color);
-        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
-        padding: 20px 0 0 10px;
-        transition: 0.3s ease-in-out;
-    }
-
-    #navbar.active {
-        right: -300px;
-    }
-
-    #navbar li {
-        margin-bottom: 25px;
-    }
-
-    #navbar li a {
-        font-size: 1.3rem;
-    }
-
-    #mobile {
-        display: block;
-    }
-
-    #mobile i {
-        font-size: 25px;
-        cursor: pointer;
-    }
-
-} */
-
 @media screen and (max-width: 1280px) {
     #navbar {
         display: none;
@@ -171,49 +125,3 @@ and the mobile icon will be displayed.
         width: 40px;
     }
 }
-
-
-
-/* @media screen and (max-width: 695px) {
-    #navbar {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
-        position: fixed;
-        top: 90px;
-        right: -80px;
-        width: 300px;
-        height: 100vh;
-        background-color: var(--background-color);
-        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
-        padding: 20px 0 0 10px;
-        transition: 0.3s ease-in-out;
-    }
-
-    #navbar.active {
-        right: -300px;
-    }
-
-    #navbar li {
-        margin-bottom: 20px;
-    }
-
-    #navbar li a {
-        font-size: 1rem;
-    }
-
-    #mobile {
-        display: block;
-    }
-
-    #mobile i {
-        font-size: 20px;
-        cursor: pointer;
-    }
-
-    #logo {
-        height: 40px;
-        width: 40px;
-    }
-} */

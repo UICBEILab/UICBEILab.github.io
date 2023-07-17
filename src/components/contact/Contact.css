@@ -32,7 +32,7 @@
   gap: 20px;
 }
 
-.phone, .email, .twitter-link {
+.phone, .email, .twitter-link, .address {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
@@ -53,6 +53,10 @@
 }
 
 .email:hover i, .email:hover span {
+  animation: shake 0.5s infinite;
+}
+
+.address:hover i, .address:hover span {
   animation: shake 0.5s infinite;
 }
 
@@ -78,4 +82,10 @@ button {
 
 button:hover {
   background-color: #0056b3;
+}
+
+@media screen and (max-width: 400px) {
+  .map {
+    display: none;
+  }
 }

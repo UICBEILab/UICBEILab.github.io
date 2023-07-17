@@ -63,7 +63,7 @@ const Team = ({ data }) => {
                 ))}
             </div>
 
-        </div>                
+        </div>
     );
 };
 

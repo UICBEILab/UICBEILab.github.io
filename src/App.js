@@ -8,6 +8,7 @@ import Research from './components/research/Research';
 import Team from './components/team/Team';
 import Publications from './components/publications/Publications';
 import News from './components/news/News';
+import Awards from './components/news/Awards';
 import Courses from './components/courses/Courses';
 import Contact from './components/contact/Contact';
 
@@ -19,7 +20,8 @@ function App() {
       <Research />
       <Team />
       <Publications />
-      <News username="@BEI_Lab"/>
+      {/* <News username="@BEI_Lab"/> */}
+      <Awards />
       <Courses />
       <Contact />
     </div>

@@ -24,8 +24,8 @@ export const NavBarData = [
         cName: 'nav-link'
     },
     {
-        title: 'Awards/News',
-        path: '#news',
+        title: 'Awards',
+        path: '#awards',
         component: 'News',
         cName: 'nav-link'
     },
