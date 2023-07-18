@@ -17,7 +17,7 @@
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(200px, 1fr));
-  grid-gap: 20px;
+  grid-gap: 40px;
 }
 @media (max-width: 900px) {
   .projects-grid {
@@ -37,6 +37,8 @@
     border-radius: 8px;
     align-items: center;
     justify-content: center;
+    transition: transform 0.5s;
+    /* overflow: hidden; */
 }
 
 .projects-card h5 {
@@ -47,6 +49,28 @@
     padding-top: 20px;
 }
 
+.projects-card:hover {
+    transform: translateY(-10px);
+}
+
+.projects-card:hover .arrow {
+    opacity: 1;
+}
+
+.arrow {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.arrow i {
+    font-size: 24px;
+    color: var(--teal); /* Color of the arrow */
+    cursor: pointer;
+}
 
 #image {
     border-radius: 8px;
@@ -98,7 +122,7 @@ a {
     /* border-radius: 30px; */
 }
 
-.card:hover {
+/* .card:hover {
     color: rgb(88 199 250 / 100%);
     transition: color 1s;
 }
@@ -112,7 +136,6 @@ a {
         var(--rotate)
         , #5ddcff, #3c67e3 43%, #4e00c2);
     position: absolute;
-    /* z-index: -1; */
     top: -1%;
     left: -2%;
     animation: spin 2.5s linear infinite;
@@ -124,7 +147,6 @@ a {
     top: calc(var(--card-height) / 6);
     left: 0;
     right: 0;
-    /* z-index: -1; */
     height: 100%;
     width: 100%;
     transform: scale(0.8);
@@ -135,4 +157,4 @@ a {
         opacity: 1;
     transition: opacity .5s;
     animation: spin 2.5s linear infinite;
-}
+} */

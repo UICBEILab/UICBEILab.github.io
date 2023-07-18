@@ -19,6 +19,10 @@ const Research = () => {
         setSelectedResearch(null);
     };
 
+    const handleArrowClick = (research) => {
+        setSelectedResearch(research);
+    };
+
     return (
         <div id="research">
             
@@ -43,15 +47,16 @@ const Research = () => {
                                         />
                                     </div>
                                     <h5 className="card-title">{item.title}</h5>
+
+                                    <div className="arrow">
+                                        <i className="fa fa-arrow-right" aria-hidden="true" onClick={() => handleArrowClick(item)}></i>
+                                    </div>
                                 </li>
                             );
                         })}
                     </ul>
                 </div>
             )}
-            {/* {selectedResearch && (
-                <ResearchContent research={selectedResearch} />
-            )} */}
         </div>
     );
 }
