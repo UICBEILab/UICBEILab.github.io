@@ -23,7 +23,7 @@ const Research = () => {
         <div id="research">
             
             <Fade bottom>
-                <h1>Research</h1>
+                <h1>-- RESEARCH --</h1>
             </Fade>
             
             {selectedResearch ? (

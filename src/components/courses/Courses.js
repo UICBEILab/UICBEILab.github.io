@@ -19,7 +19,7 @@ const Courses = () => {
     return (
         <div id="courses">
             <Fade bottom>
-                <h1>Courses</h1>
+                <h1>-- COURSES --</h1>
             </Fade>
 
             <ul className="courses-cards">

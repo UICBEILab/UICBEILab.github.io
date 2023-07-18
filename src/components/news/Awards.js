@@ -7,7 +7,7 @@ const Awards = () => {
     return (
         <div id="awards">
             <Fade bottom>
-                <h1>Awards</h1>
+                <h1>-- AWARDS --</h1>
             </Fade>
             <div className="awards-container">
                 {AwardsData.map((award, index) => (

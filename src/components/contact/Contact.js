@@ -19,7 +19,7 @@ const Contact = () => {
     return (
         <div id="contact">
             <Fade bottom>
-                <h1>Contact</h1>
+                <h1>-- CONTACT --</h1>
             </Fade>
             <div className="contact-content">
                 <div className="map">

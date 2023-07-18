@@ -18,7 +18,7 @@ const Team = ({ data }) => {
     return (
         <div id="team">
             <Fade bottom>
-                <h1>Our Team</h1>
+                <h1>-- OUR TEAM --</h1>
             </Fade>
 
             <div className="team-container">
@@ -34,8 +34,8 @@ const Team = ({ data }) => {
                                 <img src={member.image} alt="Profile" />
                             </div>
                             <div className="member-details">
-                                <h3>{member.title}</h3>
-                                <p>{member.name}</p>
+                                <h3>{member.name}</h3>
+                                <p>{member.title}</p>
                                 <div className="hover-icons">
                                     {member.resumeLink && (
                                         <a href={member.resumeLink} target="_blank" rel="noopener noreferrer"
@@ -54,15 +54,9 @@ const Team = ({ data }) => {
                                 </div>
                             </div>
                         </div>
-                        {/* <div className="member-content">
-                            {member.content.map((line, index) => (
-                                <p key={index}>{line}</p>
-                            ))}
-                        </div> */}
                     </div>
                 ))}
             </div>
-
         </div>
     );
 };

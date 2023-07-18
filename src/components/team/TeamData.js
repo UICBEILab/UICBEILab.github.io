@@ -16,8 +16,8 @@ export const TeamData = [
     },
     {
         aKey: "2",
-        title: "Graduate Students",
-        name: "Hevar Palani, PhD Student",
+        title: "PhD Student",
+        name: "Hevar Palani",
         image: "/assets/TeamPic/HevarPalani.jpeg",
         resumeLink: "",
         linkedinLink: "https://www.linkedin.com/in/hevar-palani-1757731bb/",
@@ -30,8 +30,8 @@ export const TeamData = [
     },
     {
         aKey: "3",
-        title: "Graduate Students",
-        name: "Banuprasad Velumani, PhD Student",
+        title: "PhD Student",
+        name: "Banuprasad Velumani",
         image: "/assets/TeamPic/BanuprasadVelumani.jpeg",
         resumeLink: "",
         linkedinLink: "https://www.linkedin.com/in/banuprasad-v-a418a5207/",
@@ -42,8 +42,8 @@ export const TeamData = [
     },
     {
         aKey: "4",
-        title: "Graduate Students",
-        name: "Hamed Khaleghi, PhD Student",
+        title: "PhD Student",
+        name: "Hamed Khaleghi",
         image: "/assets/TeamPic/HamedKhaleghi.jpeg",
         resumeLink: "",
         linkedinLink: "https://www.linkedin.com/in/hamedkhaleghi/",

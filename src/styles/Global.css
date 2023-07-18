@@ -5,6 +5,8 @@
     --lightest-navy: #0f1727;
     --black: #000000;
     --teal: #64CCC5;
+    --lighter-teal: #00ffea;
+    --sheer-teal: #64ccc58e;
     --teal-sheer: #64ccc59a;
     --dark-teal: #176B87;
     --dark-teal-sheer: #176b87aa;
@@ -13,7 +15,8 @@
     --light-slate: #565656;
     --lightest-slate: #777777;
 
-    --card-color: #CFCFCF;
+    --card-color: #d3eae9;
+    --card-icon: #53a9a3;
     --gif-background: #0e0e0e;
 
     --card-height: 200px;

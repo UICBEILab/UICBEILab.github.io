@@ -8,7 +8,7 @@ const Publications = () => {
     return (
         <div id="publications">
             <Fade bottom>
-                <h1>Publications</h1>
+                <h1>-- PUBLICATIONS --</h1>
             </Fade>
                 {/* <h1 className="animate__animated animate__fadeInUpBig">Publications</h1> */}
             <SimpleTab activeKey="journal">
