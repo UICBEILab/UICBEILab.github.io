@@ -5,8 +5,8 @@
 #team h1 {
   font-family: 'Varela Round', sans-serif;
   color: var(--teal);
-  padding-top: 100px;
-  /* padding-bottom: 40px; */
+  padding-top: 90px;
+  padding-bottom: 10px;
 }
 
 .team-container {
