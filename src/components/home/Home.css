@@ -51,7 +51,7 @@
 }
 
 #rightside {
-    padding-top: 30%;
+    padding-top: 22%;
     padding-right: 100px;
     position: relative;
     background-color: transparent;
@@ -74,7 +74,7 @@
         line-height: 1;
         margin-bottom: 20px;
         display: block;
-        color: var(--teal);
+        color: var(--lighter-teal);
     }
 
     #leftside p {

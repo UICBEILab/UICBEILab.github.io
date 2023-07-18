@@ -6,7 +6,7 @@
 #contact h1 {
   color: var(--teal);
   padding-top: 100px;
-  padding-bottom: 40px;
+  /* padding-bottom: 40px; */
   text-align: center;
 }
 
