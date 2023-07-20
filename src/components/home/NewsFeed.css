@@ -1,47 +1,28 @@
-/* #newsfeed {
-    min-height: 100vh;
-} */
-
-/* #newsfeed h1 {
-    font-family: 'Varela Round', sans-serif;
-    color: var(--teal);
-    padding-top: 100px;
-    padding-bottom: 40px;
-    text-align: center;
-} */
-
-.news-container {
+.news2-container {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
 }
 
-/* .awards-container {
-    flex: 1;
-    padding-right: 20px;
-    margin-top: 70px;
-    margin-left: 50px;
-} */
-
-.twitter-news {
+.twitter-news2 {
   flex: 1;
 }
 
 /* The device with borders */
-.smartphone {
+.smartphone2 {
   position: relative;
-  width: 374px;
-  height: 728px;
+  width: 330px;
+  height: 600px;
   margin: auto;
   border: 16px #373737 solid;
   border-top-width: 60px;
   border-bottom-width: 60px;
   border-radius: 36px;
-  margin-top: -20px;
+  margin-top: 110px;
 }
 
 /* The horizontal line on the top of the device */
-.smartphone:before {
+.smartphone2:before {
   content: '';
   display: block;
   width: 60px;
@@ -55,7 +36,7 @@
 }
 
 /* The circle on the bottom of the device */
-.smartphone:after {
+.smartphone2:after {
   content: '';
   display: block;
   width: 35px;
@@ -69,8 +50,8 @@
 }
 
 /* The screen (or content) of the device */
-.smartphone .content {
-  width: 342px;
-  height: 608px;
+.smartphone2 .content2 {
+  width: 300px;
+  height: 480px;
   background: white;
 }

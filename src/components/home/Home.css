@@ -31,10 +31,11 @@
 }
 
 #leftside h1 {
-    font-weight: 700px;
+    /* font-weight: 700px; */
     font-size: 50px;
     font-style: bold;
-    letter-spacing: 1px;
+    font-weight: bolder;
+    letter-spacing: 4px;
     line-height: 1;
     margin-bottom: 20px;
     display: block;
@@ -44,7 +45,9 @@
 #leftside p {
     font-size: 25px;
     font-style: bold;
-    letter-spacing: 1px;
+    /* bold the text */
+    font-weight: bolder;
+    letter-spacing: 4px;
     display: flex;
     align-items: center;
     color: var(--slate);

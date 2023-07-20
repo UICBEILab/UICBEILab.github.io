@@ -1,7 +1,3 @@
-/* #awards {
-    min-height: 100vh;
-} */
-
 #awards h1 {
     font-family: 'Varela Round', sans-serif;
     color: var(--teal);
@@ -15,7 +11,7 @@
 }
 
 .award-card {
-    margin-top: -25px;
+    margin-top: 15px;
     position: relative;
     width: 100%;
     padding: 20px;
