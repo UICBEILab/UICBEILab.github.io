@@ -40,6 +40,7 @@
     margin-bottom: 20px;
     display: block;
     color: var(--lighter-teal);
+    text-shadow: 0 0 6px #000000, 0 0 8px #0000FF;
 }
 
 #leftside p {
@@ -51,6 +52,7 @@
     display: flex;
     align-items: center;
     color: var(--slate);
+    text-shadow: 0 0 4px #ffffff, 0 0 5px #00ffea;
 }
 
 #rightside {

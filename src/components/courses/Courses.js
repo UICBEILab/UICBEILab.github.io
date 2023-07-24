@@ -37,7 +37,7 @@ const Courses = () => {
                                 </div>
                                 <div className="card__description">
                                     <a href={course.pdf} download>
-                                        <FontAwesomeIcon icon={faDownload} />
+                                        <FontAwesomeIcon icon={faDownload} /> Syllabus
                                     </a>
                                 </div>
                             </div>

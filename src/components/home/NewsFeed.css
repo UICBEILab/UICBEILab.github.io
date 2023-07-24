@@ -11,12 +11,12 @@
 /* The device with borders */
 .smartphone2 {
   position: relative;
-  width: 330px;
-  height: 600px;
+  width: 350px;
+  height: 560px;
   margin: auto;
   border: 16px #373737 solid;
-  border-top-width: 60px;
-  border-bottom-width: 60px;
+  border-top-width: 40px;
+  border-bottom-width: 40px;
   border-radius: 36px;
   margin-top: 90px;
 }
@@ -28,7 +28,7 @@
   width: 60px;
   height: 5px;
   position: absolute;
-  top: -30px;
+  top: -20px;
   left: 50%;
   transform: translate(-50%, -50%);
   background: #565656;
@@ -39,11 +39,11 @@
 .smartphone2:after {
   content: '';
   display: block;
-  width: 35px;
-  height: 35px;
+  width: 20px;
+  height: 20px;
   position: absolute;
   left: 50%;
-  bottom: -65px;
+  bottom: -40px;
   transform: translate(-50%, -50%);
   background: #565656;
   border-radius: 50%;
@@ -51,7 +51,23 @@
 
 /* The screen (or content) of the device */
 .smartphone2 .content2 {
-  width: 300px;
+  width: 320px;
   height: 480px;
   background: white;
+  overflow-y: auto; /* Add overflow-y auto to make the content scrollable */
+  padding: 10px; /* Add some padding to the content for better appearance */
+}
+
+/* Style the scrollbar */
+.smartphone2 .content2::-webkit-scrollbar {
+  width: 5px;
+}
+
+.smartphone2 .content2::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 5px;
+}
+
+.smartphone2 .content2::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
 }
