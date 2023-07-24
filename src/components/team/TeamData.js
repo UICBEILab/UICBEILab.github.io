@@ -3,7 +3,7 @@ export const TeamData = [
     {
         aKey: "1",
         title: "Principal Investigator",
-        name: "Dr. Karatas",
+        name: "Aslihan Karatas, PhD, LEED AP",
         image: "/assets/TeamPic/DrKaratas.png",
         resumeLink: "/assets/resume/Karatas-Aslihan_CV_2022.pdf",
         linkedinLink: "https://www.linkedin.com/in/aslihan-karatas-fredenburg-ph-d-leed-ap-a2859040/",
