@@ -52,7 +52,7 @@
     display: flex;
     align-items: center;
     color: var(--slate);
-    text-shadow: 0 0 4px #ffffff, 0 0 5px #00ffea;
+    text-shadow: 0 0 3px #00ffea, 0 0 5px #00ffea;
 }
 
 #rightside {
