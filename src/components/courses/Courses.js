@@ -7,15 +7,6 @@ import './Courses.css';
 
 const Courses = () => {
     const [hovered, setHovered] = useState(null);
-
-    // const handleMouseEnter = (index) => {
-    //     setHoveredIndex(index);
-    // };
-
-    // const handleMouseLeave = () => {
-    //     setHoveredIndex(null);
-    // };
-
     return (
         <div id="courses">
             <Fade bottom>

@@ -79,6 +79,12 @@
   z-index: 2;
 }
 
+@media screen and (max-width: 900px) {
+  .card__arc {
+    display: none;
+  }
+}
+
 .card__arc path {
   fill: var(--card-color);
   d: path("M 40 80 c 22 0 40 -22 40 -40 v 40 Z");
