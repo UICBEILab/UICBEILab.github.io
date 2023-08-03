@@ -74,9 +74,14 @@
 @media screen and (max-width: 900px) {
     #row {
         flex-direction: column;
+        padding: 20px 0 50px 0;
+    }
+
+    #row div {
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 20px 0 50px 0;
     }
 
     /* #leftside {
@@ -108,12 +113,13 @@
         color: var(--slate);
     }
 
-    /* #rightside {
-        padding-top: 30%;
+    #rightside {
+        margin-left: 20%;
+        /* padding-top: 30%;
         padding-right: 100px;
         position: relative;
-        background-color: transparent;
-    } */
+        background-color: transparent; */
+    }
 }
 
 @media screen and (max-width: 400px) {

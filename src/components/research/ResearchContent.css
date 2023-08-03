@@ -128,4 +128,8 @@ h3 {
     .content-box h3 {
       font-size: 1.2rem;
     }
+
+    .zoom-note {
+      display: none;
+    }
 }

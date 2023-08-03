@@ -35,7 +35,7 @@
 }
 
 .card__image {
-  width: 100%;
+  width: 180%;
   height: auto;
   z-index:1;
 }

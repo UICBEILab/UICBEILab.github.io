@@ -18,10 +18,10 @@
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: left;
-    border: 2px solid var(--teal);
+    border: 2px solid var(--award-card);
     transition: transform 0.3s, border-color 0.3s;
     cursor: pointer;
-    background-color: var(--teal);
+    background-color: var(--award-card);
 }
 
 .award-card h2 {
@@ -36,7 +36,7 @@
 }
 
 .award-card:hover {
-  border-color: var(--teal);
+  border-color: var(--award-card);
   transform: scale(1.05);
 }
 
