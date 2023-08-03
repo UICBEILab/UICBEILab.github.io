@@ -15,11 +15,20 @@
     background-image: url("../../../public/assets/Chicago1.jpeg"); /* Set the background image */
     background-size: cover;
     background-position: center;
+
+    flex-direction: row;
+    width: 100%;
 }
 
-#col {
+/* #col {
     width: 50%;
     padding: 0 50px;
+} */
+
+#col {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }
 
 #leftside {
@@ -62,14 +71,21 @@
     background-color: transparent;
 }
 
-@media screen and (max-width: 800px) {
-    #leftside {
+@media screen and (max-width: 900px) {
+    #row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0 50px 0;
+    }
+
+    /* #leftside {
         width: 80%;
         padding-left: 30px;
         padding-right: 30px;
         position: relative;
         background-color: transparent;
-    }
+    } */
 
     #leftside h1 {
         font-weight: 700px;
@@ -78,6 +94,7 @@
         letter-spacing: 1px;
         line-height: 1;
         margin-bottom: 20px;
+        margin-top: 120px;
         display: block;
         color: var(--lighter-teal);
     }
@@ -91,12 +108,12 @@
         color: var(--slate);
     }
 
-    #rightside {
+    /* #rightside {
         padding-top: 30%;
         padding-right: 100px;
         position: relative;
         background-color: transparent;
-    }
+    } */
 }
 
 @media screen and (max-width: 400px) {

@@ -17,7 +17,7 @@
 
 .map {
     flex: 1;
-    margin-left: 60px;
+    margin-right: 60px;
 }
 
 .contact-info {
@@ -84,8 +84,12 @@ button:hover {
   background-color: #0056b3;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 900px) {
+  .contact-content {
+    flex-direction: column;
+  }
   .map {
-    display: none;
+    width: 85%;
+    /* display: none; */
   }
 }

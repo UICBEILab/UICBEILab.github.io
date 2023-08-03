@@ -22,14 +22,14 @@ const Contact = () => {
                 <h1>-- CONTACT --</h1>
             </Fade>
             <div className="contact-content">
-                <div className="map">
+                {/* <div className="map">
                     <iframe
                         src="https://maps.uic.edu/"
                         width="100%"
                         height="650"
                         title="UIC Map"
                     ></iframe>
-                </div>
+                </div> */}
                 <div className="contact-info">
                     <div className="phone" onClick={handlePhoneClick}>
                         <i className="fas fa-phone"></i>
@@ -52,6 +52,15 @@ const Contact = () => {
                         <i className="fab fa-twitter"></i>
                         <span>Follow us on Twitter</span>
                     </a>
+                </div>
+
+                <div className="map">
+                    <iframe
+                        src="https://maps.uic.edu/"
+                        width="100%"
+                        height="650"
+                        title="UIC Map"
+                    ></iframe>
                 </div>
             </div>
         </div>

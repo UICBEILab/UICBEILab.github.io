@@ -89,12 +89,12 @@
   left: 0;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 900px) {
   .tab-item {
     min-width: 80px;
     padding: 16px 20px 11px 20px;
     /* font-size: 22px; */
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     font-style: bold;
     text-transform: uppercase;
     text-align: center;
@@ -113,7 +113,7 @@
     padding-left: 30px;
     padding-bottom: 10px;
     /* font-size: 19px; */
-    font-size: 0.5rem;
+    font-size: 0.7rem;
     color: var(--light-slate);
   }
 }

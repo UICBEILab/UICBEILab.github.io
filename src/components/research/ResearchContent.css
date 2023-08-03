@@ -102,9 +102,9 @@ h3 {
     }
 }
 
-@media screen and (max-width: 750px) {
-  .content-desc img {
-      display: none;
+@media screen and (max-width: 900px) {
+    .content-desc {
+      flex-direction: column;
     }
 
     .content-box button {
