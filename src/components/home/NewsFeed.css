@@ -76,8 +76,8 @@
   /* The device with borders */
   .smartphone2 {
     position: relative;
-    width: 250px;
-    height: 460px;
+    width: 350px;
+    height: 560px;
     margin: auto;
     border: 16px #373737 solid;
     border-top-width: 40px;
@@ -116,10 +116,10 @@
 
   /* The screen (or content) of the device */
   .smartphone2 .content2 {
-    width: 220px;
-    height: 380px;
+    width: 320px;
+    height: 480px;
     background: white;
-    overflow-y: auto; /* Add overflow-y auto to make the content scrollable */
+    overflow-y: hidden; /* Add overflow-y auto to make the content scrollable */
     padding: 10px; /* Add some padding to the content for better appearance */
   }
 }
