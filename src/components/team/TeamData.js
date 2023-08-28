@@ -31,18 +31,6 @@ export const TeamData = [
     {
         aKey: "3",
         title: "PhD Student",
-        name: "Banuprasad Velumani",
-        image: "/assets/TeamPic/BanuprasadVelumani.jpeg",
-        resumeLink: "",
-        linkedinLink: "https://www.linkedin.com/in/banuprasad-v-a418a5207/",
-        content: [
-            "Banuprasad is currently pursuing his PhD in Civil, Environmental and Materials Engineering at UIC.",
-            "For BEI Lab, he is mainly focusing on data collection and analyzes of energy efficiency of construction systems.",
-        ]
-    },
-    {
-        aKey: "4",
-        title: "PhD Student",
         name: "Hamed Khaleghi",
         image: "/assets/TeamPic/HamedKhaleghi.jpeg",
         resumeLink: "",
@@ -54,23 +42,12 @@ export const TeamData = [
         ]
     },
     {
-        aKey: "5",
+        aKey: "4",
         title: "",
         name: "Parisa",
         image: "/assets/TeamPic/Parisa.jpeg",
         resumeLink: "",
-        linkedinLink: "https://www.linkedin.com/in/jildardo-luna-96744214b/",
-        content: [
-            "",
-        ]
-    },
-    {
-        aKey: "6",
-        title: "Undergraduate Research Student",
-        name: "Michael Nwaigbo",
-        image: "/assets/TeamPic/MichaelNwaigbo.jpeg",
-        resumeLink: "",
-        linkedinLink: "",
+        linkedinLink: "https://www.linkedin.com/in/parisa-salehi-a75703180/?originalSubdomain=at/",
         content: [
             "",
         ]
