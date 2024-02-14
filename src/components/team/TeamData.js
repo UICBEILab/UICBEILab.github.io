@@ -44,7 +44,7 @@ export const TeamData = [
     {
         aKey: "4",
         title: "PhD Student",
-        name: "Parisa",
+        name: "Parisa Salehi",
         image: "/assets/TeamPic/Parisa.jpeg",
         resumeLink: "",
         linkedinLink: "https://www.linkedin.com/in/parisa-salehi-a75703180/?originalSubdomain=at/",
@@ -52,16 +52,6 @@ export const TeamData = [
             "At the BEI Lab, Parisa delves into how climate change and weather influence a building's energy dynamics, considering both climate change behavior of individual components and urban microclimate interactions.",
         ]
     },
-    {
-        aKey: "5",
-        title: "CURA Undergraduate Student",
-        name: "Hoang Bao Nghi Bien",
-        image: "/assets/TeamPic/HoangBien.jpg",
-        resumeLink: "",
-        linkedinLink: "https://www.linkedin.com/in/hoangbaonghibien/",
-        content: [
-            "",
-        ]
-    },
+    
 
 ]

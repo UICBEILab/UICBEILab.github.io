@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./ResearchContent.css";
 
 const ResearchContent = ({ research, clearResearch }) => {
-    const [showLargeImage, setShowLargeImage] = useState(false);
+    const [showLargeImage, setShowLargeImage, ShowLargeTitle, setShowLargeTitle] = useState(false);
     const [imageSize, setImageSize] = useState(300); // Initial size
 
     const handleGoBack = () => {
@@ -11,6 +11,10 @@ const ResearchContent = ({ research, clearResearch }) => {
 
     const handleImageClick = () => {
         setShowLargeImage(!showLargeImage);
+    };
+
+    const handleTitleClick = () => {
+        setShowLargeTitle(!setShowLargeTitle);
     };
 
     const handleScroll = (e) => {
@@ -31,6 +35,18 @@ const ResearchContent = ({ research, clearResearch }) => {
         };
     }, [showLargeImage]);
 
+
+    useEffect(() => {
+        if (ShowLargeTitle) {
+            document.addEventListener("wheel", handleScroll);
+        } else {
+            document.removeEventListener("wheel", handleScroll);
+        }
+        return () => {
+            document.removeEventListener("wheel", handleScroll);
+        };
+    }, [ShowLargeTitle]);
+
     return (
         <div id="research-content">
             <div className="content-box">
@@ -48,7 +64,17 @@ const ResearchContent = ({ research, clearResearch }) => {
                     </div>
                     <div className="content-desc-info">{research.content}</div>
                 </div>
-                <button onClick={handleGoBack}>Go Back</button>
+
+
+                <div className="grid-tile" onClick={handleTitleClick}>
+                    <h2>{research.title}</h2>
+                    {research && (
+                        <div>
+                        <p>Sample text </p>
+                        </div>
+                    )}
+                </div>
+                
             </div>
         </div>
     );

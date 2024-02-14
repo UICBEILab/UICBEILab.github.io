@@ -10,4 +10,27 @@ export const AlumniData = [
             "",
         ]
     },
+    {
+        aKey: "2",
+        title: "CURA Undergraduate Student",
+        name: "Hoang Bao Nghi Bien",
+        image: "/assets/TeamPic/HoangBien.jpg",
+        resumeLink: "",
+        linkedinLink: "https://www.linkedin.com/in/hoangbaonghibien/",
+        content: [
+            "",
+        ]
+    },
+    {
+        aKey: "3",
+        title: "Graduate Student",
+        name: "Sharan Gottuparthi",
+        image: "/assets/TeamPic/Sharan.jpeg",
+        resumeLink: "",
+        linkedinLink: "https://www.linkedin.com/in/sharan-gottuparthi-74ab14209/",
+        content: [
+            "",
+        ]
+    },
+    
 ];
