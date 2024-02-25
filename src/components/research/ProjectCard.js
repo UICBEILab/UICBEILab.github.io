@@ -22,7 +22,8 @@ function ProjectCard({item, index}) {
                 />
             </div>
             <div className="flex justify-start">
-                <h5 className= "cursor-pointer" onClick={() => toggleDropdown(index)}>{item.title}</h5> 
+            <h5 className="cursor-pointer" onClick={() => toggleDropdown(index)}>{item.title}</h5>
+ 
                 {isOpenArray[index] && (
                     <div className="">
                         <p>{item.content}</p>
