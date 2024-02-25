@@ -93,11 +93,10 @@
   .tab-item {
     min-width: 80px;
     padding: 16px 20px 11px 20px;
-    /* font-size: 22px; */
-    font-size: 0.6rem;
+    font-size: 1.2rem;
     font-style: bold;
     text-transform: uppercase;
-    text-align: center;
+    /*text-align: center; /* Add this line */
     color: var(--teal);
     background-color: var(--background-color);
     border-top-left-radius: 5px;
@@ -107,6 +106,7 @@
     cursor: pointer;
     transition: all 0.5s ease;
   }
+  
 
   .tab-desc li {
     position: relative;
@@ -116,4 +116,8 @@
     font-size: 0.6rem;
     color: var(--light-slate);
   }
+}
+.cursor-pointer {
+  cursor: pointer;
+  text-align: center;
 }

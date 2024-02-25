@@ -5,7 +5,7 @@ export const TeamData = [
         title: "Principal Investigator",
         name: "Aslihan Karatas, PhD, LEED AP",
         image: "/assets/TeamPic/DrKaratas.png",
-        resumeLink: "/assets/resume/Karatas-Aslihan_CV_2022.pdf",
+        resumeLink: "/assets/resume/Karatas-Aslihan_CV_2024.pdf",
         linkedinLink: "https://www.linkedin.com/in/aslihan-karatas-fredenburg-ph-d-leed-ap-a2859040/",
         content: [
             "Dr. Karatas is the principal investigator of the UIC Built Environment and Infrastructure Lab.",
