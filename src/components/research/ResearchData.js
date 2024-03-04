@@ -24,7 +24,7 @@ export const ResearchData = [
     {
         aKey: "4",
         title: "Investigating the Best Performing Wall Assembly Systemsin Arctic Regions",
-        url: "/assets/researchImage/uiclogo.png",
+        url: "/assets/researchImage/UIClogoresearch.png",
         content: 
         "Should ask what to put"
     },

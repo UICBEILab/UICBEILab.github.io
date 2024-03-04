@@ -37,8 +37,8 @@
 
 #image {
   border-radius: 1px;
-  height: 180px;
-  width: 180px;
+  height: 250px;
+  width: 250px;
   margin-right: 2px; /* Add some space between the image and the title */
 }
 
