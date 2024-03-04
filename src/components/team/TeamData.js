@@ -32,7 +32,7 @@ export const TeamData = [
         aKey: "3",
         title: "PhD Student",
         name: "Hamed Khaleghi",
-        image: "/assets/TeamPic/HamedKhaleghi.jpeg",
+        image: "/assets/TeamPic/Hamed_Updated_profilepic.jpg",
         resumeLink: "",
         linkedinLink: "https://www.linkedin.com/in/hamedkhaleghi/",
         content: [

@@ -15,7 +15,7 @@ export const ResearchContentDisplay = [
         {
             aKey: "2",
             title: "Finding the Impact of Window Leakage and Window Replacement on Low-Income Households’ Utility Bills, DOE/ORNL, Role: Principal Investigator (sole-PI), ",
-            url: "/assets/researchImage/USDEPTofENERGY.jpeg",
+            url: "/assets/researchImage/DOElogo.jpeg",
             content: 
             "Air leakage through window cracks and joints are majorly responsible for the building’s heating and cooling energy loss. According to the Oak Ridge National Laboratory 2020 study report, low-income households carry a burden of spending 13.9% of total income on energy bills versus 3.0% for other households, which is an overwhelming share of expense for a developing community. Energy efficiency measures in residential housing can be captured with deep energy retrofits, which increase affordability for residents while in the long-term helping preserve affordable housing by lowering operating expenses. However, it is still unknown how much air infiltration and leakage through window cracks and joints affect the energy consumption of households. As cities look to improve their affordable housing options, the demand for cost-effective energy efficient retrofit solutions is growing to address more equitable uptake in envelope improvements"
         },
@@ -29,7 +29,7 @@ export const ResearchContentDisplay = [
         {
             aKey: "4",
             title: "Investigating the Best Performing Wall Assembly Systemsin Arctic Regions,Role: Principal Investigator (sole-PI)",
-            url: "/assets/researchImage/uiclogo.png",
+            url: "/assets/researchImage/UIClogoresearch.png",
             content: 
             ""
         }]
