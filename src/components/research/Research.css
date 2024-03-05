@@ -22,12 +22,25 @@
   .projects-grid {
     grid-template-columns: repeat(1, minmax(150px, 1fr));
   }
+  
+  .projects-card {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #image {
+    margin-right: 0;
+    margin-bottom: 10px;
+    width: auto;
+    height: auto;
+  }
 }
 
 .projects-card {
-  display: flex; /* Align children in a row */
-  align-items: center; /* Align children vertically in the center */
-  justify-content: start; /* Align children to the start of the container */
+  display: flex;
+  align-items: center;
+  justify-content: start;
   cursor: default;
   height: 100%;
   padding: 1rem 1.75rem;
@@ -39,15 +52,14 @@
   border-radius: 1px;
   height: 250px;
   width: 250px;
-  margin-right: 2px; /* Add some space between the image and the title */
+  margin-right: 2px;
 }
 
 .projects-card h5 {
   font-family: 'Varela Round', sans-serif;
   color: var(--light-slate);
   font-size: 1.2rem;
-  margin: 0; /* Adjust as needed */
-  /* No padding-top is needed if you want to align it with the image vertically */
+  margin: 0;
 }
 
 .arrow {
@@ -61,7 +73,7 @@
 
 .arrow i {
   font-size: 24px;
-  color: var(--teal); /* Color of the arrow */
+  color: var(--teal);
   cursor: pointer;
 }
 
