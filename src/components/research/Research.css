@@ -25,15 +25,21 @@
   
   .projects-card {
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: center; /* Center align the items for mobile */
+    margin-bottom: 20px; /* Add bottom margin to each card */
   }
 
   #image {
+    width: calc(100% - 40px); /* Adjust width to provide padding */
     margin-right: 0;
-    margin-bottom: 10px;
-    width: auto;
-    height: auto;
+    margin-bottom: 20px; /* Add space between the image and the title */
+    margin-left: auto; /* Center-align the image */
+    margin-right: auto; /* Center-align the image */
+  }
+
+  .projects-card h5 {
+    text-align: center; /* Center-align the title text */
+    padding: 0 20px; /* Add padding to the title */
   }
 }
 
@@ -61,6 +67,9 @@
   font-size: 1.2rem;
   margin: 0;
 }
+
+/* Remaining CSS code remains unchanged */
+
 
 .arrow {
   position: absolute;
