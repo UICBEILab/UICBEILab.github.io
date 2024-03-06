@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './SimpleTab.css';
 import { ResearchData } from './ResearchData';
+import {ResearchContent} from './ResearchContent';
 import ProjectCard from './ProjectCard';
 
 const SimpleTab = ({ activeKey, children }) => {
@@ -39,9 +40,10 @@ const SimpleTab = ({ activeKey, children }) => {
     )
 }
 
-export const Tab = () => {
+export const Tab = ({ children }) => {
     return (
         <div className='tab'>
+            {children}
         </div>
     )
 }
