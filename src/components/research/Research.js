@@ -130,6 +130,10 @@ const Research = () => {
                                         />
                                     </div>
                                     <h5 className="card-title">{item.title}</h5>
+                                    {/* Display the arrow when hovering over the card */}
+                                    <div className="arrow">
+                                        <i className="fa fa-arrow-right" aria-hidden="true" onClick={() => handleImageClick(item)}></i>
+                                    </div>
                                 </li>
                             );
                         })}
