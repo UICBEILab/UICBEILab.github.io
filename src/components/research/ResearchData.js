@@ -27,7 +27,7 @@ export const ResearchData = [
     {
         aKey: "4",
         title: "Investigating the Best Performing Wall Assembly Systemsin Arctic Regions",
-        url: "/assets/researchImage/UIClogoresearch.png",
+        url: "/assets/researchImage/uicLogo.jpg",
         isOngoing: true,
         content: 
         "Should ask what to put"
@@ -43,7 +43,7 @@ export const ResearchData = [
     {
         aKey: "6",
         title: "Improving the Assessment of Noise Exposure and Warning Signal Audibility on Construction Sites, Role: Co- Investigator (Co-PI), Nikolina Samardzic (PI) and Behzad Esmaeili (Co-PI), Completed in Feb 2023 ",
-        url: "/assets/researchImage/CPWRLogo.png",
+        url: "/assets/researchImage/CPWRLogo2.png",
         isOngoing: false,
         content:
             ""
