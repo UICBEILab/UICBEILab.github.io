@@ -43,7 +43,7 @@ export const ResearchData = [
     {
         aKey: "6",
         title: "Improving the Assessment of Noise Exposure and Warning Signal Audibility on Construction Sites, Role: Co- Investigator (Co-PI), Nikolina Samardzic (PI) and Behzad Esmaeili (Co-PI), Completed in Feb 2023 ",
-        url: "/assets/researchImage/CPWRLogo2.png",
+        url: "/assets/researchImage/CPWR_logo.jpg",
         isOngoing: false,
         content:
             ""
@@ -51,7 +51,7 @@ export const ResearchData = [
     {
         aKey: "7",
         title: "IEQ-EP: Indoor Environmental Quality and Energy Performance System for Buildings, Role: Principal Investigator (PI), Completed in April 2021 ",
-        url: "/assets/researchImage/CentrepolisAcceleratorLogo.jpeg",
+        url: "/assets/researchImage/CA_logo.jpg",
         isOngoing: false,
         content:
             ""

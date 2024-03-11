@@ -3,7 +3,7 @@ import "./ResearchContent.css";
 
 const ResearchContent = ({ research, clearResearch }) => {
     const [showLargeImage, setShowLargeImage] = useState(false);
-    const [imageSize, setImageSize] = useState(300); // Initial size
+    const [imageSize, setImageSize] = useState(150); // Initial size
 
     const handleGoBack = () => {
         clearResearch();
@@ -41,7 +41,7 @@ const ResearchContent = ({ research, clearResearch }) => {
                             src={research.url}
                             alt={research.title}
                             onClick={handleImageClick}
-                            style={{ width: `${imageSize}px`, height: `${imageSize}px` }}
+                            style={{ width: `${imageSize + 150}px`, height: `${imageSize}px` }}
                             className={showLargeImage ? "large-image" : ""}
                         />
                         {!showLargeImage && <div className="zoom-note">Click & scroll to Zoom</div>}
