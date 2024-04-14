@@ -2,8 +2,8 @@ export const ResearchContentDisplay = [
 
     {
         aKey: "1",
-        title: "ON GOING PROJECTS",
-        content: 
+        title: "ONGOING PROJECTS",
+        projects: 
         [
         {
             aKey: "1",
@@ -38,7 +38,7 @@ export const ResearchContentDisplay = [
         aKey: "2",
         title: "COMPLETED PROJECTS",
         url: "/assets/researchImage/USDEPTofENERGY.jpeg",
-        content: 
+        projects: 
         [{
             aKey: "1",
             title: "Comparing Actual and Theoretical Environmental Performances of Prefab Wall Assemblies, Role: Principal Investigator (sole-PI), Completed in Dec 2023 ",

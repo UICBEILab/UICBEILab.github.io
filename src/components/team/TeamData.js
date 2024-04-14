@@ -52,6 +52,17 @@ export const TeamData = [
             "At the BEI Lab, Parisa delves into how climate change and weather influence a building's energy dynamics, considering both climate change behavior of individual components and urban microclimate interactions.",
         ]
     },
+    {
+        aKey: "5",
+        title: "Undergraduate Researcher",
+        name: "Thanh Vo",
+        image: "/assets/TeamPic/ThanhVo.jpg",
+        resumeLink: "",
+        linkedinLink: "",
+        content: [
+            ".",
+        ]
+    },
     
 
 ]

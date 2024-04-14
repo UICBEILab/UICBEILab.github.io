@@ -1,90 +1,88 @@
 #research {
-  background-color: var(--background-color);
-  padding-left: 5%;
-  padding-right: 5%;
-  min-height: 100vh;
+    background-color: var(--background-color);
+    padding-left: 5%;
+    padding-right: 5%;
+    min-height: 100vh;
 }
 
 #research h1 {
-  font-family: 'Varela Round', sans-serif;
-  color: var(--teal);
-  padding-top: 90px;
-  padding-bottom: 10px;
+    font-family: 'Varela Round', sans-serif;
+    color: var(--teal);
+    padding-top: 90px;
+    padding-bottom: 10px;
 }
 
+
+/* here */
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(1, minmax(200px, 1fr));
+  grid-template-columns: repeat(2, minmax(200px, 1fr));
   grid-gap: 40px;
 }
-
 @media (max-width: 900px) {
   .projects-grid {
     grid-template-columns: repeat(1, minmax(150px, 1fr));
   }
-  
-  .projects-card {
-    flex-direction: column;
-    align-items: center; /* Center align the items for mobile */
-    margin-bottom: 20px; /* Add bottom margin to each card */
-  }
-
-  #image {
-    width: calc(100% - 40px); /* Adjust width to provide padding */
-    margin-right: 0;
-    margin-bottom: 20px; /* Add space between the image and the title */
-    margin-left: auto; /* Center-align the image */
-    margin-right: auto; /* Center-align the image */
-  }
-
-  .projects-card h5 {
-    text-align: center; /* Center-align the title text */
-    padding: 0 20px; /* Add padding to the title */
-  }
 }
 
 .projects-card {
-  display: flex;
-  align-items: center;
-  justify-content: start;
-  cursor: default;
-  height: 100%;
-  padding: 1rem 1.75rem;
-  border-radius: 8px;
-  transition: transform 0.5s;
-}
-
-#image {
-  border-radius: 1px;
-  height: 250px;
-  width: 250px;
-  margin-right: 2px;
+    position: relative;
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    position: relative;
+    height: 100%;
+    padding: 1rem 1.75rem;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.5s;
+    /* overflow: hidden; */
 }
 
 .projects-card h5 {
-  font-family: 'Varela Round', sans-serif;
-  color: var(--light-slate);
-  font-size: 1.2rem;
-  margin: 0;
+    font-family: 'Varela Round', sans-serif;
+    color: var(--light-slate);
+    font-size: 1.2rem;
+    margin: 0;
+    padding-top: 20px;
 }
 
-/* Remaining CSS code remains unchanged */
+.projects-card:hover {
+    transform: translateY(-10px);
+}
 
+.projects-card:hover .arrow {
+    opacity: 1;
+}
 
 .arrow {
-  position: absolute;
-  bottom: -20px;
-  left: 50%;
-  transform: translateX(-50%);
-  opacity: 0;
-  transition: opacity 0.3s;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
 }
 
 .arrow i {
-  font-size: 24px;
-  color: var(--teal);
-  cursor: pointer;
+    font-size: 24px;
+    color: var(--teal); /* Color of the arrow */
+    cursor: pointer;
 }
+
+#image {
+    border-radius: 8px;
+    width: 450px;
+    height: 200px;
+}
+
+#image:hover {
+  color: rgb(88 199 250 / 100%);
+  transition: color 1s;
+}
+
 
 @property --rotate {
   syntax: "<angle>";
@@ -102,17 +100,230 @@
 }
 
 .card {
-  background-color: transparent !important;
-  width: 405px;
-  height: 205px;
-  color: rgb(88 199 250 / 0%);
-  cursor: pointer;
-  justify-content: center;
-  align-items: center;
-  padding: 2px;
-  border-radius: 50px;
+    background-color: transparent !important;
+
+    width: 405px;
+    height: 205px;
+    color: rgb(88 199 250 / 0%);
+    cursor: pointer;
+    /* position: relative; */
+    /* display: relative; */
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 2px;
+    border-radius: 50px;
 }
 
 a {
-  margin: 0px;
+    /* background-color: var(--gif-background); */
+    margin: 0px;
+    /* border-radius: 30px; */
 }
+
+/* FOR TABS */
+
+.tabs {
+  /* display: flex;
+  justify-content: center;
+  margin-bottom: 20px; */
+
+  display: flex;
+    justify-content: start;
+    border-bottom: 3px solid var(--teal); 
+    margin-bottom: -3px;
+}
+
+.tab {
+  /* padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  color: var(--teal);
+  background-color: var(--background-color);
+  cursor: pointer;
+  transition: var(--teal-sheer) 0.3s; */
+
+   padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    background-color: var(--teal-light); /* Inactive tab background */
+    border-top-left-radius: 5px; /* Rounded corners at the top */
+    border-top-right-radius: 5px;
+    margin-right: 2px; /* Space between tabs */
+    font-family: 'Varela Round', sans-serif; 
+    font-size: 1rem; 
+    color: var(--slate); /* Text color */
+    transition: background-color 0.3s ease;
+}
+
+.tab.active {
+  /* opacity: 1;
+  background-color: var(--teal-sheer);
+  border-color: var(--teal);
+  color: var(--slate); */
+  background-color: var(--teal); /* Active tab background */
+    color: var(--background-color); /* White text for active tab */
+    border-bottom: 3px solid var(--background-color);
+}
+
+.tab:hover {
+    background-color: var(--teal);
+    color: var(--background-color);
+}
+
+/*
+
+.tab-container {
+  align-items: center;
+  text-align: left;
+  background-color: var(--background-color);
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.tabs {
+  display: flex;
+  position: relative;
+}
+
+.tab-item.active {
+  opacity: 1;
+  background-color: var(--teal-sheer);
+  border-color: var(--teal);
+  color: var(--slate);
+}
+
+.tab-container {
+  text-align: left;
+  width: 100%;
+  background-color: var(--background-color);
+}
+
+
+.tab-item {
+  min-width: 80px;
+  padding: 16px 20px 11px 20px;
+  font-size: 1.2rem;
+  font-style: bold;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--teal);
+  background-color: var(--background-color);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom: 5px solid transparent;
+  opacity: 0.6;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.tab-item:hover {
+  opacity: 1;
+  border-color: var(--dark-teal);
+}
+
+
+.tab-content {
+  padding: 20px 20px;
+}
+
+.tab-pane {
+  color: var(--light-slate);
+  display: none;
+}
+
+.tab-pane.active {
+  display: block;
+}
+
+.tab-desc {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tab-desc li {
+  position: relative;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  font-size: 1.2rem;
+  color: var(--light-slate);
+}
+
+.tab-desc li::before {
+  content: "▹    ";
+  color: var(--teal);
+  position: absolute;
+  left: 0;
+}
+
+@media screen and (max-width: 900px) {
+  .tab-item {
+    min-width: 80px;
+    padding: 16px 20px 11px 20px;
+    font-size: 1.2rem;
+    font-style: bold;
+    text-transform: uppercase;
+    color: var(--teal);
+    background-color: var(--background-color);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 5px solid transparent;
+    opacity: 0.6;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+  
+
+  .tab-desc li {
+    position: relative;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    font-size: 0.6rem;
+    color: var(--light-slate);
+  }
+}
+.cursor-pointer {
+  cursor: pointer;
+  text-align: center;
+} */
+
+
+
+/* .card:hover {
+    color: rgb(88 199 250 / 100%);
+    transition: color 1s;
+}
+
+.card:hover::before {
+    content: "";
+    width: 104%;
+    height: 102%;
+    border-radius: 8px;
+    background-image: linear-gradient(
+        var(--rotate)
+        , #5ddcff, #3c67e3 43%, #4e00c2);
+    position: absolute;
+    top: -1%;
+    left: -2%;
+    animation: spin 2.5s linear infinite;
+}
+
+.card:hover::after {
+    position: absolute;
+    content: "";
+    top: calc(var(--card-height) / 6);
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    transform: scale(0.8);
+    filter: blur(calc(var(--card-height) / 6));
+    background-image: linear-gradient(
+        var(--rotate)
+        , #5ddcff, #3c67e3 43%, #4e00c2);
+        opacity: 1;
+    transition: opacity .5s;
+    animation: spin 2.5s linear infinite;
+} */
