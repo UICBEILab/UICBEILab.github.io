@@ -58,8 +58,8 @@ export const ResearchData = [
     },
     {
         aKey: "8",
-        title: "Advancing Urban Resilience: The MoldMap Development for Predictive Risk Assessment, Role: Principal Investigator (PI), Completed in April 2021 ",
-        url: "/assets/researchImage/CA_logo.jpg",
+        title: "Parisa The MoldMap Development for Predictive Risk Assessment",
+        url: "/assets/researchImage/HUD.jpg",
         isOngoing: true,
         content:
             ""
