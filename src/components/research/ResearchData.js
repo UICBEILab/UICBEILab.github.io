@@ -64,6 +64,14 @@ export const ResearchData = [
         content:
             ""
     },
+    {
+        aKey: "9",
+        title: "uic Parisa The MoldMap Development for Predictive Risk Assessment",
+        url: "/assets/researchImage/HUD.jpg",
+        isOngoing: true,
+        content:
+            ""
+    },
 
     
     
