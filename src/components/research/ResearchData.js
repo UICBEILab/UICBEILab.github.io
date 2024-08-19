@@ -56,6 +56,21 @@ export const ResearchData = [
         content:
             ""
     },
-    
+    {
+        aKey: "8",
+        title: "The Tisue Bank Asbestos Research Charitable Trust (TBAR)",
+        url: "",
+        isOngoing: true,
+        content: 
+        "Aging infrastructure presents significant challenges across various industries, including the mechanical insulation workforce. Mechanical insulators play a crucial role in maintaining and improving the energy efficiency and safety of industrial facilities. However, as infrastructure ages, it becomes more vulnerable to deterioration and inefficiency, requiring specialized insulation solutions. This project will investigate the current challenges faced by the mechanical insulation workforce in the context of aging infrastructure. Our proposed approach involves conducting focus groups and surveys to gather valuable insights from industry professionals."
+    },
+    {
+        aKey: "9",
+        title: "Advancing Urban Resilience: The MoldMap Development for Predictive Risk Assessment",
+        url: "/assets/researchImage/HUD copy.jpeg",
+        isOngoing: true,
+        content:
+            "Our initiative in SW Chicago focuses on detecting, modeling, and remediating mold growth, complemented by educational campaigns on prevention. Our goal is a healthier community, informed about early detection and proactive mold prevention. As we work to safeguard residents against climate change effects, we use techniques co-developed with the SW Chicago community. While existing technologies like infrared imaging and odor meters offer mold detection, they're labor-intensive, lack precision, and require expert analysis. Many current detection methods, such as bulk sampling, are invasive, potentially damaging properties."
+    },
 
 ]

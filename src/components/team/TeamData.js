@@ -54,11 +54,11 @@ export const TeamData = [
     },
     {
         aKey: "5",
-        title: "Undergraduate Researcher",
+        title: "Honors College Undergrad. Researcher",
         name: "Thanh Vo",
         image: "/assets/TeamPic/ThanhVo.jpg",
         resumeLink: "",
-        linkedinLink: "",
+        linkedinLink: "https://www.linkedin.com/in/thanh-vo-675485230/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
         content: [
             ".",
         ]

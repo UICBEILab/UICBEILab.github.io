@@ -31,8 +31,15 @@ export const ResearchContentDisplay = [
             title: "Investigating the Best Performing Wall Assembly Systemsin Arctic Regions,Role: Principal Investigator (sole-PI)",
             url: "/assets/researchImage/UIClogoresearch.png",
             content: 
-            ""
-        }]
+            "Hello"
+        },
+        {
+            akey: "5",
+            title: "The Tisue Bank Asbestos Research Charitable Trust (TBAR)",
+            url: "",
+            content: "Aging infrastructure presents significant challenges across various industries, including the mechanical insulation workforce. Mechanical insulators play a crucial role in maintaining and improving the energy efficiency and safety of industrial facilities. However, as infrastructure ages, it becomes more vulnerable to deterioration and inefficiency, requiring specialized insulation solutions. This project will investigate the current challenges faced by the mechanical insulation workforce in the context of aging infrastructure. Our proposed approach involves conducting focus groups and surveys to gather valuable insights from industry professionals."
+        }
+    ]
     },
     {
         aKey: "2",
