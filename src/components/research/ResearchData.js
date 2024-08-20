@@ -58,6 +58,7 @@ export const ResearchData = [
     },
     {
         aKey: "8",
+
         title: "The Tisue Bank Asbestos Research Charitable Trust (TBAR)",
         url: "",
         isOngoing: true,
@@ -72,5 +73,9 @@ export const ResearchData = [
         content:
             "Our initiative in SW Chicago focuses on detecting, modeling, and remediating mold growth, complemented by educational campaigns on prevention. Our goal is a healthier community, informed about early detection and proactive mold prevention. As we work to safeguard residents against climate change effects, we use techniques co-developed with the SW Chicago community. While existing technologies like infrared imaging and odor meters offer mold detection, they're labor-intensive, lack precision, and require expert analysis. Many current detection methods, such as bulk sampling, are invasive, potentially damaging properties."
     },
+
+    
+    
+
 
 ]

@@ -20,7 +20,9 @@ export const AwardsData = [
         content: "We are excited to share that we have received an internal grant from UIC to investigate the architectural challenges presented by the Arctic region. This project enables us to further explore the unique design considerations and constraints posed by this extreme environment. With this initiative, we are eager to contribute valuable insights to the broader architectural discourse and inspire sustainable solutions for Arctic construction."
     },
     {
+
         title: "Grant Awarded by STO Panel Technology",
         content: "We are very happy to announce that our team (PI: Dr. Karatas) received a new grant from STO Panel Technology to enhance incorporating thermal imaging technology for monitoring the thermal performance, air, and water leakage of STO (Exterior Insulation and Finish System) wall panels. The addition of thermal imaging will provide valuable insights into the effectiveness of the STO wall panels in terms of energy efficiency, insulation performance, and the detection of potential issues related to air and water infiltration."
+
     },
 ]
