@@ -20,7 +20,7 @@
     text-align: left;
     border: 2px solid var(--award-card);
     transition: transform 0.3s, border-color 0.3s;
-    cursor: pointer;
+    cursor: default;
     background-color: var(--award-card);
 }
 

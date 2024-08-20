@@ -6,13 +6,13 @@ export const CoursesData = [
         image: "/assets/coursesPDF/courseimage3.jpeg",
     },
     {
-        number: "CME 494",
+        number: "CME 488",
         name: "Sustainable Construction",
         pdf: "/assets/coursesPDF/Sustainable-Construction_syllabus.pdf",
         image: "/assets/coursesPDF/courseimage3.jpeg",
     },
     {
-        number: "CME 494",
+        number: "CME 481",
         name: "Decision-Making Analysis and Risk Management in Construction",
         pdf: "/assets/coursesPDF/Risk-Management_Syllabus.pdf",
         image: "/assets/coursesPDF/courseimage3.jpeg",
