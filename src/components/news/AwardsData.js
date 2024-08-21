@@ -25,4 +25,9 @@ export const AwardsData = [
         content: "We are very happy to announce that our team (PI: Dr. Karatas) received a new grant from STO Panel Technology to enhance incorporating thermal imaging technology for monitoring the thermal performance, air, and water leakage of STO (Exterior Insulation and Finish System) wall panels. The addition of thermal imaging will provide valuable insights into the effectiveness of the STO wall panels in terms of energy efficiency, insulation performance, and the detection of potential issues related to air and water infiltration."
 
     },
+    {
+
+        title: "Grant Awarded by The Department of Housing and Urban Development (HUD)",
+        content: " We are excited to announce that our team (PI: Dr. Aslihan Karatas) was awarded a grant by HUD for the project titled “Advancing Urban Resilience: The MoldMap Development for Predictive Risk Assessment”. This project will develop a user-friendly cost-effective predictive tool for community organizations/cities to identify and map houses at-risk of hidden mold growth without going under costly physical mold inspection”. Using advanced techniques, we aim to assist community groups, officials, and homeowners, particularly in regions like SW Chicago with a high concentration of older homes. Project Start: Sep 1 2024- Finish Sep 1 2027 (Expected)."
+    },
 ]
