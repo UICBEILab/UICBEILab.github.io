@@ -63,6 +63,17 @@ export const TeamData = [
             ".",
         ]
     },
+    {
+        aKey: "6",
+        title: "Summer Intern",
+        name: "Alexandre Pebayle",
+        image: "/assets/TeamPic/ALEX.jpg",
+        resumeLink: "",
+        linkedinLink: "https://www.linkedin.com/in/alexandrepebayle/?trk=public_profile_browsemap&originalSubdomain=fr",
+        content: [
+            ".",
+        ]
+    },
     
 
 ]
