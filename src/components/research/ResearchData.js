@@ -60,7 +60,7 @@ export const ResearchData = [
         aKey: "8",
 
         title: "The Tisue Bank Asbestos Research Charitable Trust (TBAR)",
-        url: "/assets/researchImage/L.jpg",
+        url: "/assets/researchImage/heat.jpg",
         isOngoing: true,
         content: 
         "Aging infrastructure presents significant challenges across various industries, including the mechanical insulation workforce. Mechanical insulators play a crucial role in maintaining and improving the energy efficiency and safety of industrial facilities. However, as infrastructure ages, it becomes more vulnerable to deterioration and inefficiency, requiring specialized insulation solutions. This project will investigate the current challenges faced by the mechanical insulation workforce in the context of aging infrastructure. Our proposed approach involves conducting focus groups and surveys to gather valuable insights from industry professionals."
