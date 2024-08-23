@@ -1,25 +1,25 @@
 import React from 'react';
-import { Timeline } from 'react-x-widgets'; // Updated package name
+import { Timeline } from 'react-twitter-widgets';
 import Fade from 'react-reveal/Fade';
 import './NewsFeed.css';
 
 const NewsFeed = ({ username }) => {
-    const xUsername = username.replace('@', ''); // Assuming '@' is still not needed
+    const twitterUsername = username.replace('@', ''); // Remove the '@' symbol
 
     return (
         <div id="newsfeed">
             <div className="news2-container">
-                <div className="x-news2">  {/* Updated class name */}
+                <div className="twitter-news2">
                     <div className="smartphone2">
                         <div className="content2">
-                            <div className="x-feed-container"> {/* Updated class name */}
+                            <div className="twitter-feed-container">
                                 <Timeline
                                     dataSource={{
                                         sourceType: 'profile',
-                                        screenName: xUsername,
+                                        screenName: twitterUsername,
                                     }}
                                     options={{
-                                        postLimit: 5, // Hypothetical terminology change
+                                        tweetLimit: 5,
                                     }}
                                 />
                             </div>
