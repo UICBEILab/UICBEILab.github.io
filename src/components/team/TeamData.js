@@ -5,7 +5,7 @@ export const TeamData = [
         title: "Principal Investigator",
         name: "Aslihan Karatas, PhD, LEED AP",
         image: "/assets/TeamPic/DrKaratas.png",
-        resumeLink: "/assets/resume/Karatas-Aslihan_CV_2024.pdf",
+        resumeLink: "/assets/resume/Karatas-Aslihan_CV_new.pdf",
         linkedinLink: "https://www.linkedin.com/in/aslihan-karatas-fredenburg-ph-d-leed-ap-a2859040/",
         content: [
             "Dr. Karatas is the principal investigator of the UIC Built Environment and Infrastructure Lab.",
@@ -45,7 +45,7 @@ export const TeamData = [
         aKey: "4",
         title: "PhD Student",
         name: "Parisa Salehi",
-        image: "/assets/TeamPic/Parisa.jpeg",
+        image: "/assets/TeamPic/P.png",
         resumeLink: "",
         linkedinLink: "https://www.linkedin.com/in/parisa-salehi-a75703180/?originalSubdomain=at/",
         content: [
@@ -53,12 +53,12 @@ export const TeamData = [
         ]
     },
     {
-        aKey: "5",
-        title: "Honors College Undergrad. Researcher",
-        name: "Thanh Vo",
-        image: "/assets/TeamPic/ThanhVo.jpg",
+        aKey: "9",
+        title: "MSc student",
+        name: "Emily Pugacewicz",
+        image: "/assets/TeamPic/E.jpeg",
         resumeLink: "",
-        linkedinLink: "https://www.linkedin.com/in/thanh-vo-675485230/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        linkedinLink: "https://www.linkedin.com/in/emily-pugacewicz-b6201125b/",
         content: [
             ".",
         ]
@@ -74,6 +74,41 @@ export const TeamData = [
             ".",
         ]
     },
+    {
+        aKey: "7",
+        title: "CURA Awardee",
+        name: "Chris Amankwah",
+        image: "/assets/TeamPic/Chris.jpeg",
+        resumeLink: "",
+        linkedinLink: "",
+        content: [
+            ".",
+        ]
+    },
+    {
+        aKey: "5",
+        title: "CURA Awardee",
+        name: "Thanh Vo",
+        image: "/assets/TeamPic/ThanhVo.jpg",
+        resumeLink: "",
+        linkedinLink: "https://www.linkedin.com/in/thanh-vo-675485230/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        content: [
+            ".",
+        ]
+    },
+    {
+        aKey: "8",
+        title: "Honors College Undergrad Researcher",
+        name: "Bennett Smith",
+        image: "/assets/TeamPic/B.png",
+        resumeLink: "",
+        linkedinLink: "https://www.linkedin.com/in/bennett-smith-75b5552ab/",
+        content: [
+            ".",
+        ]
+    },
+    
+    
     
 
 ]

@@ -1,54 +1,91 @@
+/* Main container for the awards section */
 #awards h1 {
-    font-family: 'Varela Round', sans-serif;
-    color: var(--teal);
-    padding-top: 90px;
+  font-family: 'Varela Round', sans-serif;
+  color: var(--teal);
+  padding-top: 90px;
+  text-align: center;
 }
 
+/* Styling for the tabs */
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  border-bottom: 2px solid var(--teal);
+}
+
+.tab-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 15px 20px;
+  margin: 0 15px;
+  font-size: 1.2rem;
+  color: var(--teal);
+  cursor: pointer;
+  position: relative;
+}
+
+.tab-button.active {
+  color: #000000;
+  background-color: var(--teal);
+  border-radius: 8px 8px 0 0;
+}
+
+.tab-button:not(.active):hover {
+  color: var(--teal-hover); /* Slight hover effect for inactive tabs */
+}
+
+/* Content under the tabs */
 .awards-container {
-    flex: 1;
-    margin-right: 50px;
-    margin-left: 80px;
+  flex: 1;
+  margin: 20px auto;
+  width: 80%;
 }
 
 .award-card {
-    margin-top: 15px;
-    position: relative;
-    width: 100%;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: left;
-    border: 2px solid var(--award-card);
-    transition: transform 0.3s, border-color 0.3s;
-    cursor: default;
-    background-color: var(--award-card);
+  margin-top: 15px;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  border: 2px solid #b3ecec;
+  background-color: #e7ffff;
+  transition: transform 0.3s, border-color 0.3s;
+  font-family: Arial, sans-serif;
 }
 
-.award-card h2 {
-    color: var(--mint);
-    font-size: 1.8rem;
-    padding-bottom: 20px;
+.award-card h3 {
+  font-size: 1.8rem; /* Larger font size for the title */
+  color: #000000; /* Black color for the main title */
+  text-align: center;
+  margin-bottom: 15px; /* Add space below the title */
 }
 
 .award-card p {
-  color: var(--slate);
-  font-size: 1.2rem;
+  color: #003333; 
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: justify;
 }
 
 .award-card:hover {
-  border-color: var(--award-card);
+  border-color: var(--mint);
   transform: scale(1.05);
 }
 
-@media screen and (max-width: 400px) {
-  .award-card h2 {
-    color: var(--mint);
-    font-size: 1.0rem;
-    padding-bottom: 10px;
+/* Responsive behavior */
+@media screen and (max-width: 600px) {
+  .tab-button {
+      font-size: 1rem;
+      padding: 10px 15px;
   }
 
-  .award-card p {
-    color: var(--slate);
-    font-size: 0.8rem;
+  .award-card {
+      font-size: 1rem;
+  }
+
+  .award-card h3 {
+      font-size: 1.2rem;
   }
 }

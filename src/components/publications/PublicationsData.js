@@ -3,6 +3,7 @@ export const PublicationsData = [
         aKey: "journal",
         title: "Journal Publications",
         content: [
+            "Khaleghi, H., & Karatas, A. (2024). Assessing the Dynamic Thermal Performance of Prefabricated Wall Panels in Extreme Hot Weather Conditions. Journal of Building Engineering, 108351.",
             "Palani, H., & Karatas, A. (2024). Investigating the Disparities between Experimental and Computational Analyses of Thermal Performance in Prefabricated Wall Panels. Applied Thermal Engineering, 121568.",
             "Khaleghi, H., & Karatas, A. (2024). Assessing the Dynamic Thermal Performance of Prefabricated Wall Panels in Extreme Hot Weather Conditions. Journal of Building Engineering, 82, 108351.",
             "Palani, H., Acosta, J. G., Karatas, A., & Derrible, S. (2023). The Role of Socio-Demographic and Economic Characteristics on Energy-Related Occupant Behavior. Journal of Building Eng, 106875.",
