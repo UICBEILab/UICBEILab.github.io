@@ -1,158 +1,87 @@
 * {
     font-family: 'Varela Round', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 #home {
     min-height: 100vh;
-    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #row {
     display: flex;
-    justify-content: space-between; /* Divide the screen into two columns */
+    justify-content: center; /* Center the content */
     align-items: center;
-    padding: 20px 0 100px 0;
+    padding: 20px;
     background-image: url("../../../public/assets/Chicago1.jpeg"); /* Set the background image */
     background-size: cover;
     background-position: center;
-
-    flex-direction: row;
+    flex-direction: column; /* Stack elements vertically */
     width: 100%;
-}
-
-/* #col {
-    width: 50%;
-    padding: 0 50px;
-} */
-
-.col {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
+    min-height: 100vh; /* Ensure the container takes up full screen height */
 }
 
 #leftside {
-    width: 80%;
-    padding-left: 30px;
-    padding-right: 30px;
+    width: 100%; /* Ensures full width */
+    max-width: 1000px; /* Restrict the maximum width */
+    text-align: center; /* Center-align text */
+    padding: 30px; /* Add padding for spacing */
     position: relative;
     background-color: transparent;
+    margin: 0 auto; /* Center the div horizontally */
 }
 
 #leftside h1 {
-    /* font-weight: 700px; */
-    font-size: 50px;
-    font-style: bold;
+    font-size: 4vw; /* Responsive scaling */
     font-weight: bolder;
     letter-spacing: 4px;
-    line-height: 1;
+    line-height: 1.2; /* Adjust spacing between lines */
     margin-bottom: 20px;
     display: block;
     color: var(--lighter-teal);
     text-shadow: 0 0 6px #000000, 0 0 8px #0000FF;
+    width: 100%; /* Ensures full width usage */
 }
 
 #leftside p {
-    font-size: 25px;
-    font-style: bold;
-    /* bold the text */
+    font-size: 2vw; /* Responsive scaling */
     font-weight: bolder;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     display: flex;
-    align-items: center;
+    justify-content: center;
     color: var(--slate);
     text-shadow: 0 0 3px #00ffea, 0 0 5px #00ffea;
-}
-
-#rightside {
-    padding-top: 22%;
-    padding-right: 100px;
-    position: relative;
-    background-color: transparent;
+    width: 100%;
 }
 
 @media screen and (max-width: 900px) {
     #row {
-        flex-direction: column;
-        padding: 20px 0 50px 0;
+        padding: 20px 0;
     }
-
-    .col {
-        align-items: center;
-        justify-content: center;
-    }
-
-    /* #leftside {
-        width: 80%;
-        padding-left: 30px;
-        padding-right: 30px;
-        position: relative;
-        background-color: transparent;
-    } */
 
     #leftside h1 {
-        font-weight: 700px;
-        font-size: 40px;
-        font-style: bold;
-        letter-spacing: 1px;
-        line-height: 1;
-        margin-bottom: 20px;
-        margin-top: 120px;
-        display: block;
-        color: var(--lighter-teal);
+        font-size: 6vw; /* Increase text size for smaller screens */
+        letter-spacing: 2px;
+        margin-top: 20px; /* Add spacing from the top */
     }
 
     #leftside p {
-        font-size: 20px;
-        font-style: bold;
+        font-size: 4vw; /* Adjust paragraph font size */
         letter-spacing: 1px;
-        display: flex;
-        align-items: center;
-        color: var(--slate);
-    }
-
-    #rightside {
-        margin-left: 25%;
-        /* padding-top: 30%;
-        padding-right: 100px;
-        position: relative;
-        background-color: transparent; */
     }
 }
 
-/* @media screen and (max-width: 400px) {
-    #leftside {
-        width: 80%;
-        padding-left: 30px;
-        padding-right: 30px;
-        position: relative;
-        background-color: transparent;
-    }
-
+@media screen and (min-width: 1200px) {
     #leftside h1 {
-        font-weight: 700px;
-        font-size: 40px;
-        font-style: bold;
-        letter-spacing: 1px;
-        line-height: 1;
-        margin-bottom: 20px;
-        display: block;
-        color: var(--teal);
+        font-size: 3vw; /* Reduce size for large screens */
+        line-height: 1.1;
     }
 
     #leftside p {
-        font-size: 20px;
-        font-style: bold;
-        letter-spacing: 1px;
-        display: flex;
-        align-items: center;
-        color: var(--slate);
+        font-size: 1.5vw;
     }
-
-    #rightside {
-        padding-top: 30%;
-        padding-right: 100px;
-        position: relative;
-        background-color: transparent;
-    }
-} */
+}

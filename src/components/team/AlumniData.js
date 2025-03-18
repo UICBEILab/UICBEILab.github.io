@@ -23,11 +23,11 @@ export const AlumniData = [
     },
     {
         aKey: "3",
-        title: "Graduate Student",
-        name: "Sharan Gottuparthi",
-        image: "/assets/TeamPic/Sharan.jpeg",
+        title: "Awardee",
+        name: "Thanh Vo",
+        image: "/assets/TeamPic/ThanhVo.jpg",
         resumeLink: "",
-        linkedinLink: "https://www.linkedin.com/in/sharan-gottuparthi-74ab14209/",
+        linkedinLink: "",
         content: [
             "",
         ]

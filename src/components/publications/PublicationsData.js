@@ -3,6 +3,10 @@ export const PublicationsData = [
         aKey: "journal",
         title: "Journal Publications",
         content: [
+            "Palani, H., & Karatas, A. (2025) Digital Twin Platform for Evaluating Thermal Bridging Effects on Aggregate Thermal Performance of Prefabricated Wall Panel Systems, Applied Thermal Engineering (under review).",
+            "Palani, H., West, J., Bhandari, M, & Karatas, A. (2025) Data-Driven Study on Measuring the Role of Windows in Residential Buildings’ Air Leakage, Energy & Buildings (under review)",
+            "Khaleghi, H., Ozevin, D., & Karatas, A. (2025). Non-Destructive Argon Concentration Assessment within Insulating Glass Units (IGUs) using Ultrasonic Technique, ASCE Journal of Architectural Engineering(under review).",
+            "Khaleghi, H., Parisa S., Xu, C., Ozevin, D., & Karatas, A. (2025). Quantifying Argon Concentration within Insulating Glass Units using Low Frequency Ultrasonic Technique, Measurements (under review).",
             "Khaleghi, H., & Karatas, A. (2024). Assessing the Dynamic Thermal Performance of Prefabricated Wall Panels in Extreme Hot Weather Conditions. Journal of Building Engineering, 108351.",
             "Palani, H., & Karatas, A. (2024). Investigating the Disparities between Experimental and Computational Analyses of Thermal Performance in Prefabricated Wall Panels. Applied Thermal Engineering, 121568.",
             "Khaleghi, H., & Karatas, A. (2024). Assessing the Dynamic Thermal Performance of Prefabricated Wall Panels in Extreme Hot Weather Conditions. Journal of Building Engineering, 82, 108351.",

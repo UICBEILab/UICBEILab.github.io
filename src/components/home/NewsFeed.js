@@ -1,123 +1,99 @@
-import React from 'react';
-import Fade from 'react-reveal/Fade';
-import './NewsFeed.css';
+import React, { useEffect, useState } from 'react';
 
-const NewsFeed = () => {
-  const profileData = {
-    data: {
-      url: 'https://t.co/zhPUgyczNf',
-      location: 'Chicago, IL',
-      public_metrics: {
-        followers_count: 40,
-        following_count: 35,
-        tweet_count: 34,
-        listed_count: 0,
-        like_count: 12,
-      },
-      id: '1524073874652073986',
-      entities: {
-        url: {
-          urls: [
-            {
-              start: 0,
-              end: 23,
-              url: 'https://t.co/zhPUgyczNf',
-              expanded_url: 'https://uicbeilab.github.io/',
-              display_url: 'uicbeilab.github.io',
-            },
-          ],
-        },
-        description: {
-          mentions: [
-            {
-              start: 41,
-              end: 45,
-              username: 'UIC',
-            },
-          ],
-        },
-      },
-      username: 'BEI_Lab',
-      protected: false,
-      created_at: '2022-05-10T17:08:48.000Z',
-      profile_image_url: 'https://pbs.twimg.com/profile_images/1558270461515030533/9SNMulz6_normal.jpg',
-      name: 'BEI_Lab',
-      description: 'Built Environment and Infrastructure Lab @UIC, Director:Aslihan Karatas',
-      verified: false,
-    },
+const MastodonFeed = () => {
+  const [latestPost, setLatestPost] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(false);
+
+  const mastodonApiUrl = 'https://mastodon.social/api/v1/accounts/lookup?acct=AslihanKaratas';
+
+  const fetchMastodonPosts = async () => {
+    setLoading(true);
+    setError(false);
+
+    try {
+      const response = await fetch(mastodonApiUrl);
+      if (!response.ok) {
+        throw new Error(`HTTP error! Status: ${response.status}`);
+      }
+
+      const accountData = await response.json();
+      const userId = accountData.id;
+
+      const postsResponse = await fetch(`https://mastodon.social/api/v1/accounts/${userId}/statuses`);
+      if (!postsResponse.ok) {
+        throw new Error(`HTTP error! Status: ${postsResponse.status}`);
+      }
+
+      const posts = await postsResponse.json();
+      if (posts.length === 0) {
+        setLatestPost(null);
+        return;
+      }
+
+      const firstPost = posts[0];
+      const imageUrl = firstPost.media_attachments.length > 0 ? firstPost.media_attachments[0].url : null;
+
+      const post = {
+        link: firstPost.url,
+        pubDate: firstPost.created_at,
+        description: firstPost.content,
+        imageUrl: imageUrl,
+      };
+
+      setLatestPost(post);
+    } catch (err) {
+      console.error('Error fetching Mastodon API:', err);
+      setError(true);
+    } finally {
+      setLoading(false);
+    }
   };
 
-  const { data } = profileData;
-
-  // Construct the X profile URL using the username
-  const xProfileUrl = `https://x.com/${data.username}`;
+  useEffect(() => {
+    fetchMastodonPosts();
+  }, []);
 
   return (
-    <div id="newsfeed">
-      <div className="news2-container">
-        <div className="twitter-news2">
-          <div className="smartphone2">
-            <div className="content2">
-              <div className="twitter-feed-container">
-                <div className="max-w-sm rounded overflow-hidden shadow-lg p-6 bg-white">
-                  <div className="flex items-center">
-                    {/* Make profile image clickable */}
-                    <a href={xProfileUrl} target="_blank" rel="noopener noreferrer">
-                      <img
-                        className="w-12 h-12 rounded-full mr-4"
-                        src={data.profile_image_url}
-                        alt={`${data.name}'s profile`}
-                      />
-                    </a>
-                    <div>
-                      <div className="flex items-center">
-                        {/* Make username clickable */}
-                        <a href={xProfileUrl} target="_blank" rel="noopener noreferrer" className="hover:underline">
-                          <h2 className="text-xl font-bold">{data.name}</h2>
-                        </a>
-                        {data.verified && (
-                          <svg
-                            className="ml-2 w-4 h-4 text-blue-500"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              strokeWidth={2}
-                              d="M9 12l2 2 4-4"
-                            />
-                          </svg>
-                        )}
-                      </div>
-                      <a href={xProfileUrl} target="_blank" rel="noopener noreferrer" className="hover:underline">
-                        <p className="text-gray-600">@{data.username}</p>
-                      </a>
-                    </div>
-                  </div>
-                  <p className="mt-4 text-gray-800">{data.description}</p>
-                  <div className="text-blue-500 mt-2">
-                    <a href={data.entities.url.urls[0].expanded_url} target="_blank" rel="noopener noreferrer">
-                      {data.entities.url.urls[0].display_url}
-                    </a>
-                  </div>
-                  <div className="mt-4">
-                    <p className="text-gray-600 text-sm">Location: {data.location}</p>
-                    <p className="text-gray-600 text-sm">Joined: {new Date(data.created_at).toLocaleDateString()}</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+    <div className="mastodon-feed" style={{ display: 'flex', justifyContent: 'flex-end', padding: '20px' }}>
+      {!loading && !error && latestPost && (
+        <div
+          style={{
+            padding: '15px',
+            border: '1px solid #ccc',
+            borderRadius: '8px',
+            backgroundColor: 'white',
+            textAlign: 'center',
+            maxWidth: '400px',
+            marginLeft: 'auto'
+          }}
+        >
+          <a
+            href={latestPost.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: 'none', color: '#007bff', fontWeight: 'bold' }}
+          >
+            View Post
+          </a>
+          <p dangerouslySetInnerHTML={{ __html: latestPost.description }} style={{ fontSize: '0.9em', marginTop: '10px' }}></p>
+          {latestPost.imageUrl && (
+            <img
+              src={latestPost.imageUrl}
+              alt="Post Image"
+              style={{ maxWidth: '80%', maxHeight: '200px', borderRadius: '8px', marginTop: '10px', display: 'block', marginLeft: 'auto', marginRight: 'auto' }}
+              onError={(e) => { e.target.style.display = 'none'; }}
+            />
+          )}
+          <p style={{ fontSize: '0.8em', color: '#555', marginTop: '10px' }}>
+            Published on: {latestPost.pubDate ? new Date(latestPost.pubDate).toLocaleString() : 'Unknown Date'}
+          </p>
         </div>
-      </div>
+      )}
+      {loading && <p>Loading latest post...</p>}
+      {error && <p>There was an error fetching the feed. Please try again later.</p>}
     </div>
   );
 };
 
-export default NewsFeed;
-
-
-
+export default MastodonFeed;

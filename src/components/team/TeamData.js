@@ -5,7 +5,7 @@ export const TeamData = [
         title: "Principal Investigator",
         name: "Aslihan Karatas, PhD, LEED AP",
         image: "/assets/TeamPic/DrKaratas.png",
-        resumeLink: "/assets/resume/Karatas-Aslihan_CV_new.pdf",
+        resumeLink: "/assets/resume/Karatas-Aslihan_CV_2025.pdf",
         linkedinLink: "https://www.linkedin.com/in/aslihan-karatas-fredenburg-ph-d-leed-ap-a2859040/",
         content: [
             "Dr. Karatas is the principal investigator of the UIC Built Environment and Infrastructure Lab.",
@@ -53,45 +53,12 @@ export const TeamData = [
         ]
     },
     {
-        aKey: "9",
-        title: "MSc student",
-        name: "Emily Pugacewicz",
-        image: "/assets/TeamPic/E.jpeg",
-        resumeLink: "",
-        linkedinLink: "https://www.linkedin.com/in/emily-pugacewicz-b6201125b/",
-        content: [
-            ".",
-        ]
-    },
-    {
-        aKey: "6",
-        title: "Summer Intern",
-        name: "Alexandre Pebayle",
-        image: "/assets/TeamPic/Alex.jpg",
-        resumeLink: "",
-        linkedinLink: "https://www.linkedin.com/in/alexandrepebayle/?trk=public_profile_browsemap&originalSubdomain=fr",
-        content: [
-            ".",
-        ]
-    },
-    {
-        aKey: "7",
-        title: "CURA Awardee",
-        name: "Chris Amankwah",
-        image: "/assets/TeamPic/Chris.jpeg",
-        resumeLink: "",
-        linkedinLink: "",
-        content: [
-            ".",
-        ]
-    },
-    {
         aKey: "5",
-        title: "CURA Awardee",
-        name: "Thanh Vo",
-        image: "/assets/TeamPic/ThanhVo.jpg",
+        title: "PhD Student",
+        name: "Charles Pipim",
+        image: "/assets/TeamPic/Ch.jpeg",
         resumeLink: "",
-        linkedinLink: "https://www.linkedin.com/in/thanh-vo-675485230/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        linkedinLink: "https://www.linkedin.com/in/charlespipim/?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&originalSubdomain=uk",
         content: [
             ".",
         ]
@@ -107,6 +74,29 @@ export const TeamData = [
             ".",
         ]
     },
+    {
+        aKey: "9",
+        title: "CURA Undergraduate Awardee",
+        name: "Samantha Pantoja",
+        image: "/assets/TeamPic/S.jpg",
+        resumeLink: "",
+        linkedinLink: "https://www.linkedin.com/in/samantha-pantoja-7a9166249/",
+        content: [
+            ".",
+        ]
+    },
+    {
+        aKey: "10",
+        title: "CURA Undergraduate Awardee",
+        name: "Kelly Sanchez Moretta",
+        image: "/assets/TeamPic/Kelly.jpeg",
+        resumeLink: "",
+        linkedinLink: "https://www.linkedin.com/in/kelly-sanchez-moretta-b4283b2b0/",
+        content: [
+            ".",
+        ]
+    },
+   
     
     
     
