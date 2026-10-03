@@ -11,14 +11,13 @@ import News from './components/news/News';
 import Awards from './components/news/Awards';
 import Courses from './components/courses/Courses';
 import Contact from './components/contact/Contact';
-import NewSection from './components/newSection/NewSection';
+
 
 function App() {
   return (
     <div className="App">
       <NavBar />
       <Home />
-      <NewSection />
       <Research />
       <Team />
       <Publications />

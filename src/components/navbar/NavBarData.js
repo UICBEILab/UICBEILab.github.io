@@ -6,12 +6,6 @@ export const NavBarData = [
         cName: 'nav-link'
     },
     {
-        title: 'HUD Project',
-        path: '#new-section',
-        component: 'NewSection',
-        cName: 'nav-link'
-    },
-    {
         title: 'Research',
         path: '#research',
         component: 'Research',

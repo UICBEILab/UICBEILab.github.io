@@ -15,20 +15,6 @@ export const TeamData = [
         ]
     },
     {
-        aKey: "2",
-        title: "PhD Student",
-        name: "Hevar Palani",
-        image: "/assets/TeamPic/HevarPalani.jpeg",
-        resumeLink: "",
-        linkedinLink: "https://www.linkedin.com/in/hevar-palani-1757731bb/",
-        content: [
-            "Hevar earned his MSc degree in Civil engineering from Lawrence Technological University. ",
-            "He was a 2019 - 2021 Fulbright Student Program Grantee.",
-            "He is currently pursuing his PhD in Civil, Environmental and Materials Engineering at UIC under the supervision of Dr. Karatas.",
-            "For BEI Lab, he is mainly focusing on analyzing the thermal performance of construction systems under various climate conditions.",
-        ]
-    },
-    {
         aKey: "3",
         title: "PhD Student",
         name: "Hamed Khaleghi",
@@ -65,38 +51,59 @@ export const TeamData = [
     },
     {
         aKey: "8",
-        title: "Honors College Undergrad Researcher",
-        name: "Bennett Smith",
-        image: "/assets/TeamPic/B.png",
+        title: "PhD Student",
+        name: "Nishat Tasnim",
+        image: "/assets/TeamPic/Nishat.jpeg",
         resumeLink: "",
-        linkedinLink: "https://www.linkedin.com/in/bennett-smith-75b5552ab/",
+        linkedinLink: "https://www.linkedin.com/in/nishat-tasnim-26a797321/",
         content: [
             ".",
         ]
     },
     {
         aKey: "9",
-        title: "CURA Undergraduate Awardee",
-        name: "Samantha Pantoja",
-        image: "/assets/TeamPic/S.jpg",
+        title: "PhD Student",
+        name: "Seda Nur Şirin Külekçi",
+        image: "/assets/TeamPic/Seda.jpeg",
         resumeLink: "",
-        linkedinLink: "https://www.linkedin.com/in/samantha-pantoja-7a9166249/",
+        linkedinLink: "https://www.linkedin.com/in/seda-nur-%C5%9Firin-k%C3%BClek%C3%A7i-24018623a/",
         content: [
             ".",
         ]
     },
     {
         aKey: "10",
-        title: "CURA Undergraduate Awardee",
-        name: "Kelly Sanchez Moretta",
-        image: "/assets/TeamPic/Kelly.jpeg",
+        title: "Postdoc",
+        name: "Haluk Isik",
+        image: "/assets/TeamPic/Ha.jpeg",
         resumeLink: "",
-        linkedinLink: "https://www.linkedin.com/in/kelly-sanchez-moretta-b4283b2b0/",
+        linkedinLink: "https://www.linkedin.com/in/haluk-isik-a341497b/",
         content: [
             ".",
         ]
     },
-   
+   {
+        aKey: "10",
+        title: "High School Student at Lane Tech College Prep",
+        name: "Leyla Atasoy",
+        image: "/assets/TeamPic/Le.jpeg",
+        resumeLink: "",
+        linkedinLink: "https://www.linkedin.com/in/leyla-a-6a58343b0/",
+        content: [
+            ".",
+        ]
+    },
+    {
+        aKey: "10",
+        title: "Undergraduate Student",
+        name: "Hamza Kazouini",
+        image: "/assets/TeamPic/",
+        resumeLink: "",
+        linkedinLink: "https://www.linkedin.com/in/hamza-kazouini-3531b9405/",
+        content: [
+            ".",
+        ]
+    },
     
     
     

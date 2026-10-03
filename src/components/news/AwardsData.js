@@ -1,5 +1,17 @@
 export const AwardsData = [
     {
+        title: "Grant Awarded by SOL PROJEX",
+        content: " We are pleased to announce that our team (PI: Dr. Aslihan Karatas) was awarded a grant by HUD for the project titled “Environmental Performance Testing of SOL Projex's Bio-Based Albizia-Lime Composite for Building Applications - Phase I”. we seek to perform water leakage, moisture absorption and VOC emission of Bio-Based Albizia-Lime Composite (Wood-crete) wall panels developed by SOL Projex. This research aims to provide a scientifically tested evaluation of the environmental performance of overall wood-crete panels. Project Start: March 1 2026- Finish May 1 2027 (Expected).",
+        status: "Ongoing",
+      
+    },
+     {
+        title: "Grant Awarded by USG",
+        content: " We are pleased to announce that our team (PI: Dr. Aslihan Karatas) was awarded a grant by USG for the project titled “Water Penetration Resistance Performance of Tile backerboards”. This research aims to investigates the water penetration resistance performance of two tile backerboard products experimentally and numerically. Project Start: September 12025- Finish April 1 2026 (Expected).",
+        status: "Ongoing",
+      
+    },
+    {
         title: "Grant Awarded by The Department of Housing and Urban Development (HUD)",
         content: " We are excited to announce that our team (PI: Dr. Aslihan Karatas) was awarded a grant by HUD for the project titled “Advancing Urban Resilience: The MoldMap Development for Predictive Risk Assessment”. This project will develop a user-friendly cost-effective predictive tool for community organizations/cities to identify and map houses at-risk of hidden mold growth without going under costly physical mold inspection”. Using advanced techniques, we aim to assist community groups, officials, and homeowners, particularly in regions like SW Chicago with a high concentration of older homes. Project Start: Aug 1 2024- Finish Sep 1 2027 (Expected).",
         status: "Ongoing",
@@ -8,7 +20,7 @@ export const AwardsData = [
     {
         title: 'Grant Awarded by Department of Energy and Oak Ridge National Lab',
         content: "We are pleased to announce that our team (PI: Dr. Karatas) was awarded a grant by DOE for the project titled “Analyzing the Impact of Windows Air Leakage on Energy Consumption of Low-Income Residential Houses”. This project aims to investigate the impact of air leakage on the energy efficiency of buildings. Air leakage through window cracks and joints are majorly responsible for the building’s heating and cooling energy loss. According to the ORNL 2020 study report, low-income households carry a burden of spending 13.9% of total income on energy bills versus 3.0% for other households, which is an overwhelming share of expense for a developing community. Energy efficiency measures in residential housing can be captured with deep energy retrofits, which increase affordability for residents while in the long-term helping preserve affordable housing by lowering operating expenses. However, it is still unknown how much air infiltration and leakage occurs through the window. Project Start: Aug 2023- Finish Aug 2025 ",
-        status: "Ongoing",
+        status: "Completed",
     },
     {
         title: 'Grant Awarded by The Tisue Bank Asbestos Research Charitable Trust (TBAR)',
@@ -17,7 +29,8 @@ export const AwardsData = [
     },
     {
         title: 'Grant Awarded by STO Panel Technology',
-        content: "We are excited to introduce our groundbreaking project sponsored by STO Panel Technology. BEI Lab received the grant to conduct research studies on comparing the thermal performance and water/air resistance of wall panel joints in both prefab and precast building assemblies. As the industry currently leans towards precast panels, largely due to an experiential knowledge void about prefab performance, our research aims to provide a comprehensive evaluation of both, paving the way for informed choices in modern construction. This endeavor not only fills a critical research void but also equips construction professionals with insights essential for future projects. Project Start: Aug 2023- Finish Feb 2025 "
+        content: "We are excited to introduce our groundbreaking project sponsored by STO Panel Technology. BEI Lab received the grant to conduct research studies on comparing the thermal performance and water/air resistance of wall panel joints in both prefab and precast building assemblies. As the industry currently leans towards precast panels, largely due to an experiential knowledge void about prefab performance, our research aims to provide a comprehensive evaluation of both, paving the way for informed choices in modern construction. This endeavor not only fills a critical research void but also equips construction professionals with insights essential for future projects. Project Start: Aug 2023- Finish Feb 2025 ",
+        status: "Completed",
     },
     {
         title: 'Grant Awarded by STO Panel Technology',

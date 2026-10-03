@@ -1,35 +1,16 @@
 export const AlumniData = [
-    {
-        aKey: "1",
-        title: "CURA Undergraduate Awardee",
-        name: "Jildardo Luna",
-        image: "/assets/TeamPic/JildardoLuna.jpeg",
-        resumeLink: "",
-        linkedinLink: "https://www.linkedin.com/in/jildardo-luna-96744214b/",
-        content: [
-            "",
-        ]
-    },
-    {
+     {
         aKey: "2",
-        title: "CURA Undergraduate Student",
-        name: "Hoang Bao Nghi Bien",
-        image: "/assets/TeamPic/HoangBien.jpg",
+        title: "PhD Student",
+        name: "Hevar Palani",
+        image: "/assets/TeamPic/",
         resumeLink: "",
-        linkedinLink: "https://www.linkedin.com/in/hoangbaonghibien/",
+        linkedinLink: "https://www.linkedin.com/in/hevar-palani-1757731bb/",
         content: [
-            "",
-        ]
-    },
-    {
-        aKey: "3",
-        title: "Awardee",
-        name: "Thanh Vo",
-        image: "/assets/TeamPic/ThanhVo.jpg",
-        resumeLink: "",
-        linkedinLink: "",
-        content: [
-            "",
+            "Hevar earned his MSc degree in Civil engineering from Lawrence Technological University. ",
+            "He was a 2019 - 2021 Fulbright Student Program Grantee.",
+            "He is currently pursuing his PhD in Civil, Environmental and Materials Engineering at UIC under the supervision of Dr. Karatas.",
+            "For BEI Lab, he is mainly focusing on analyzing the thermal performance of construction systems under various climate conditions.",
         ]
     },
     
