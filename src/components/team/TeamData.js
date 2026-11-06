@@ -5,7 +5,7 @@ export const TeamData = [
         title: "Principal Investigator",
         name: "Aslihan Karatas, PhD, LEED AP",
         image: "/assets/TeamPic/DrKaratas.png",
-        resumeLink: "/assets/resume/Karatas-Aslihan_CV_2025.pdf",
+        resumeLink: "/assets/resume/AKaratas_CV (7).pdf",
         linkedinLink: "https://www.linkedin.com/in/aslihan-karatas-fredenburg-ph-d-leed-ap-a2859040/",
         content: [
             "Dr. Karatas is the principal investigator of the UIC Built Environment and Infrastructure Lab.",
@@ -16,7 +16,7 @@ export const TeamData = [
     },
     {
         aKey: "3",
-        title: "PhD Student",
+        title: "PhD Candidate",
         name: "Hamed Khaleghi",
         image: "/assets/TeamPic/Hamed_Updated_profilepic.jpg",
         resumeLink: "",
@@ -29,7 +29,7 @@ export const TeamData = [
     },
     {
         aKey: "4",
-        title: "PhD Student",
+        title: "PhD Candidate",
         name: "Parisa Salehi",
         image: "/assets/TeamPic/P.png",
         resumeLink: "",
@@ -39,21 +39,10 @@ export const TeamData = [
         ]
     },
     {
-        aKey: "5",
-        title: "PhD Student",
-        name: "Charles Pipim",
-        image: "/assets/TeamPic/Ch.jpeg",
-        resumeLink: "",
-        linkedinLink: "https://www.linkedin.com/in/charlespipim/?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&originalSubdomain=uk",
-        content: [
-            ".",
-        ]
-    },
-    {
         aKey: "8",
         title: "PhD Student",
         name: "Nishat Tasnim",
-        image: "/assets/TeamPic/Nishat.jpeg",
+        image: "/assets/TeamPic/N.jpg",
         resumeLink: "",
         linkedinLink: "https://www.linkedin.com/in/nishat-tasnim-26a797321/",
         content: [
@@ -73,9 +62,9 @@ export const TeamData = [
     },
     {
         aKey: "10",
-        title: "Postdoc",
+        title: "Postdoctoral Research Fellow",
         name: "Haluk Isik",
-        image: "/assets/TeamPic/Ha.jpeg",
+        image: "/assets/TeamPic/H.jpg",
         resumeLink: "",
         linkedinLink: "https://www.linkedin.com/in/haluk-isik-a341497b/",
         content: [
@@ -84,7 +73,7 @@ export const TeamData = [
     },
    {
         aKey: "10",
-        title: "High School Student at Lane Tech College Prep",
+        title: "High School Research Student",
         name: "Leyla Atasoy",
         image: "/assets/TeamPic/Le.jpeg",
         resumeLink: "",
@@ -95,9 +84,9 @@ export const TeamData = [
     },
     {
         aKey: "10",
-        title: "Undergraduate Student",
+        title: "Undergraduate Research Student",
         name: "Hamza Kazouini",
-        image: "/assets/TeamPic/",
+        image: "/assets/TeamPic/HA.JPG",
         resumeLink: "",
         linkedinLink: "https://www.linkedin.com/in/hamza-kazouini-3531b9405/",
         content: [

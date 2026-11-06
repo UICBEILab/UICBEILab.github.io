@@ -8,7 +8,7 @@ export const AwardsData = [
      {
         title: "Grant Awarded by USG",
         content: " We are pleased to announce that our team (PI: Dr. Aslihan Karatas) was awarded a grant by USG for the project titled “Water Penetration Resistance Performance of Tile backerboards”. This research aims to investigates the water penetration resistance performance of two tile backerboard products experimentally and numerically. Project Start: September 12025- Finish April 1 2026 (Expected).",
-        status: "Ongoing",
+        status: "Completed",
       
     },
     {
@@ -25,7 +25,7 @@ export const AwardsData = [
     {
         title: 'Grant Awarded by The Tisue Bank Asbestos Research Charitable Trust (TBAR)',
         content: "We are excited to announce that our team (PI: Dr. Aslihan Karatas) was awarded a grant by TBAR for the project titled “Synthesizing Current Challenges in Aging Infrastructure for Mechanical Heat and Frost Insulation Workforce”. This project will investigate the current challenges faced by the mechanical insulation workforce in the context of aging infrastructure. Our proposed approach involves conducting focus groups and surveys to gather valuable insights from industry professionals. Project Start: May 1 2024- Finish May 1 2025 (Expected)",
-        status: "Ongoing",
+        status: "Completed",
     },
     {
         title: 'Grant Awarded by STO Panel Technology',
